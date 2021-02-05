@@ -1,6 +1,5 @@
-const title = 'Next.js Tailwind Starter';
-const description =
-    'A template for Next.js and Tailwindcss by Theodorus Clarence';
+const title = 'StudentsxCEOs League';
+const description = 'StudentsxCEOs League Coming Real Soon.';
 
 const SEO = {
     title,
@@ -9,7 +8,7 @@ const SEO = {
     openGraph: {
         type: 'website',
         locale: 'en_IE',
-        url: 'https://theodorusclarence.com',
+        url: 'https://sxceosleague.com',
         title,
         description,
         images: [
