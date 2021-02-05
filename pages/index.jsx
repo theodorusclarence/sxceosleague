@@ -6,7 +6,7 @@ export default function Home() {
         <>
             <NextSeo />
             <section className='bg-spurple'>
-                <main className='flex flex-col items-center justify-center min-h-screen text-white layout'>
+                <main className='flex flex-col items-center justify-center min-h-screen text-center text-white layout'>
                     <h3>StudentsxCEOs League</h3>
                     <h1 className='text-8xl'>Coming Soon</h1>
                 </main>
