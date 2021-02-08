@@ -15,7 +15,7 @@ export default function Home() {
                                 </h1>
                                 <h3>StudentsxCEOs League</h3>
                             </article>
-                            <figure className='absolute -bottom-12 left-8 w-44 md:w-72 md:left-auto md:-right-32 animate-float'>
+                            <figure className='absolute select-none -bottom-12 left-8 w-44 md:w-72 md:left-auto md:-right-32 animate-float'>
                                 <Image
                                     width={997}
                                     height={1000}
@@ -24,7 +24,7 @@ export default function Home() {
                                     alt='illustration'
                                 />
                             </figure>
-                            <figure className='absolute right-0 bottom-12 md:hidden w-44 animate-float float-delay-2'>
+                            <figure className='absolute right-0 select-none bottom-12 md:hidden w-44 animate-float float-delay-2'>
                                 <Image
                                     width={261}
                                     height={366}
@@ -33,7 +33,7 @@ export default function Home() {
                                     alt='illustration'
                                 />
                             </figure>
-                            <figure className='absolute w-32 top-12 -right-12 md:-right-20 md:w-52 '>
+                            <figure className='absolute w-32 select-none top-12 -right-12 md:-right-20 md:w-52 '>
                                 <Image
                                     width={534}
                                     height={366}
@@ -42,7 +42,7 @@ export default function Home() {
                                     alt='illustration'
                                 />
                             </figure>
-                            <figure className='absolute top-0 hidden md:block md:w-32 left-48'>
+                            <figure className='absolute top-0 hidden select-none md:block md:w-32 left-48'>
                                 <Image
                                     width={306}
                                     height={1128}
@@ -51,7 +51,7 @@ export default function Home() {
                                     alt='illustration'
                                 />
                             </figure>
-                            <figure className='absolute z-0 -left-12 w-60 float-delay top-1/4 md:top-auto md:bottom-28 md:left-4 md:w-96 animate-float'>
+                            <figure className='absolute z-0 select-none -left-12 w-60 float-delay top-1/4 md:top-auto md:bottom-28 md:left-4 md:w-96 animate-float'>
                                 <Image
                                     width={1026}
                                     height={1026}
@@ -96,7 +96,7 @@ export default function Home() {
                     </main>
                     <asid className='bg-gradient-to-r from-sgreen-500 to-sgreen-600'>
                         <div className='relative flex flex-col items-center justify-end h-full layout-right'>
-                            <figure className='w-8 md:w-28'>
+                            <figure className='w-8 select-none md:w-28'>
                                 <Image
                                     width={460}
                                     height={1132}
