@@ -11,8 +11,8 @@ module.exports = {
                 body: ['Poppins', 'sans-serif'],
             },
             colors: {
-                sgreen: '#3fcb9a',
-                spurple: '#7a3cf9',
+                sgreen: { 400: '#3fcb9a', 500: '#85F0B1', 600: '#3FCBED' },
+                spurple: { 400: '#7a3cf9', 500: '#9A18F9', 600: '#4F56E9' },
                 sorange: '#ffca6c',
                 sred: '#f44e61',
             },

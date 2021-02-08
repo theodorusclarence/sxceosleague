@@ -53,3 +53,25 @@ body {
 /* Stop purging. */
 
 /* Your own custom utilities */
+.animate-float {
+    animation: float 3s infinite ease-out;
+}
+
+.float-delay {
+    animation-delay: 1s;
+}
+.float-delay-2 {
+    animation-delay: 1.9s;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0);
+    }
+    50% {
+        transform: translatey(1rem);
+    }
+    100% {
+        transform: translatey(0);
+    }
+}
