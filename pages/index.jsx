@@ -94,7 +94,7 @@ export default function Home() {
                             </div>
                         </div>
                     </main>
-                    <asid className='bg-gradient-to-r from-sgreen-500 to-sgreen-600'>
+                    <aside className='bg-gradient-to-b md:bg-gradient-to-r from-sgreen-500 to-sgreen-600'>
                         <div className='relative flex flex-col items-center justify-end h-full layout-right'>
                             <figure className='w-8 select-none md:w-28'>
                                 <Image
@@ -106,7 +106,7 @@ export default function Home() {
                                 />
                             </figure>
                         </div>
-                    </asid>
+                    </aside>
                 </div>
                 <style jsx>{`
                     article {

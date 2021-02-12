@@ -4,7 +4,7 @@ const description = 'StudentsxCEOs League Coming Real Soon.';
 const SEO = {
     title,
     description,
-    // canonical: 'https://theodorusclarence.com',
+    canonical: 'https://sxceosleague.com',
     openGraph: {
         type: 'website',
         locale: 'en_IE',
@@ -13,11 +13,10 @@ const SEO = {
         description,
         images: [
             {
-                url:
-                    'https://theodorusclarence.com/favicon/ms-icon-144x144.png',
+                url: 'https://sxceosleague.com/favicon/large-og.jpg',
                 alt: title,
-                width: 144,
-                height: 144,
+                width: 1200,
+                height: 1200,
             },
         ],
     },
