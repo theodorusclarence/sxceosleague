@@ -1,5 +1,5 @@
 const title = 'StudentsxCEOs League';
-const description = 'StudentsxCEOs League Coming Real Soon.';
+const description = 'The biggest annual event held by StudentsxCEOs East Java, a platform for selected Indonesian students to gain insights and create innovative solutions.';
 
 const SEO = {
     title,
