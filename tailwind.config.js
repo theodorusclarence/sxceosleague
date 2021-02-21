@@ -13,7 +13,7 @@ module.exports = {
             colors: {
                 sgreen: { 400: '#3fcb9a', 500: '#85F0B1', 600: '#3FCBED' },
                 spurple: { 400: '#7a3cf9', 500: '#9A18F9', 600: '#4F56E9' },
-                sorange: '#ffca6c',
+                sorange: { 400: '#FCC86C', 500: '#ffca6c', 600: '#FDB26E' },
                 sred: '#f44e61',
             },
         },

@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo';
 import CloudPdfViewer from '@openbook/cloudpdf-viewer';
 import { useEffect, useRef } from 'react';
-import CustomLink from '@/components/CustomLink';
+import ButtonLink from '@/components/ButtonLink';
 
 const title = 'Open Recruitment StudentsxCEOsLeague';
 const description = 'Join us on StudentsXCEOsLeague Volunteers';
@@ -35,12 +35,12 @@ export default function OpenRecruitmentPage() {
             <main className='bg-spurple-500'>
                 <article className='min-h-screen text-center text-white layout py-14'>
                     <h1>Open Recruitment Volunteer</h1>
-                    <CustomLink
+                    <ButtonLink
                         className='mt-4'
                         href='https://theodorusclarence.com'
                     >
                         Register Now
-                    </CustomLink>
+                    </ButtonLink>
 
                     <figure className='relative max-w-xs mx-auto mt-4 sm:max-w-xl'>
                         {/* <div className='absolute inset-0' ref={viewer}></div> */}

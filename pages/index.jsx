@@ -1,3 +1,4 @@
+import ButtonLink from '@/components/ButtonLink';
 import { NextSeo } from 'next-seo';
 import Image from 'next/image';
 
@@ -14,6 +15,12 @@ export default function Home() {
                                     Coming Soon
                                 </h1>
                                 <h3>StudentsxCEOs League</h3>
+                                <ButtonLink
+                                    href='/open-recruitment'
+                                    className='mt-4'
+                                >
+                                    Register Volunteer
+                                </ButtonLink>
                             </article>
                             <figure className='absolute select-none -bottom-12 left-8 w-44 md:w-72 md:left-auto md:-right-32 animate-float'>
                                 <Image

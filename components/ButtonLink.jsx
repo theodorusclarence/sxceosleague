@@ -1,11 +1,11 @@
 import UnstyledLink from './UnstyledLink';
 
-export default function CustomLink(props) {
+export default function ButtonLink(props) {
     const { children, className, ...other } = props;
 
     return (
         <UnstyledLink
-            className={`${className} inline-block py-2 px-4 bg-sgreen-500 text-gray-900 rounded-lg font-bold`}
+            className={`${className} inline-block py-2 px-4 bg-gradient-to-r from-sorange-600 to-sorange-400 hover:from-sorange-400 text-gray-700 rounded-lg font-bold`}
             {...other}
         >
             {children}
