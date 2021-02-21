@@ -32,8 +32,8 @@ export default function OpenRecruitmentPage() {
                     description,
                 }}
             />
-            <main className='min-h-screen bg-spurple-500'>
-                <article className='text-center text-white layout py-14'>
+            <main className='bg-spurple-500'>
+                <article className='min-h-screen text-center text-white layout py-14'>
                     <h1>Open Recruitment Volunteer</h1>
                     <CustomLink
                         className='mt-4'
@@ -42,16 +42,24 @@ export default function OpenRecruitmentPage() {
                         Register Now
                     </CustomLink>
 
-                    <figure
-                        className='relative max-w-xl mx-auto mt-4'
-                        style={{ paddingTop: '70.72%' }}
-                    >
+                    <figure className='relative max-w-xs mx-auto mt-4 sm:max-w-xl'>
                         {/* <div className='absolute inset-0' ref={viewer}></div> */}
                         <iframe
                             className='absolute inset-0 w-full h-full'
                             src={`https://drive.google.com/file/d/1LeSTXi-QD3nlBLOkAHCbZdAWLQ7c161d/preview`}
-                        ></iframe>
+                        />
                     </figure>
+                    <style jsx>{`
+                        figure {
+                            height: 28rem;
+                        }
+
+                        @media (min-width: 640px) {
+                            figure {
+                                height: 48rem;
+                            }
+                        }
+                    `}</style>
                 </article>
             </main>
         </>

@@ -5,10 +5,6 @@ export default function UnstyledLink(props) {
     const isInternalLink =
         href && (href.startsWith('/') || href.startsWith('#'));
 
-    console.log(
-        '🚀 ~ file: UnstyledLink.jsx ~ line 12 ~ UnstyledLink ~ props?.className',
-        props?.className
-    );
     if (isInternalLink) {
         return (
             <Link href={href}>
