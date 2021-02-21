@@ -149,6 +149,11 @@
   resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-10.0.5.tgz#c1ca664c4ffe2f79d14383323d783368833d503b"
   integrity sha512-Eo+nvW1ZhdkuxBWSsKHGDLNspUaJJQClld9R+H+EtiIuAQtTa8f2rhcQeyUOtvUNQoPyq7Em2PwUqOQD6LOOMA==
 
+"@openbook/cloudpdf-viewer@^0.1.0-beta.11":
+  version "0.1.0-beta.11"
+  resolved "https://registry.yarnpkg.com/@openbook/cloudpdf-viewer/-/cloudpdf-viewer-0.1.0-beta.11.tgz#973a65b22d8415b67b7ce2ac798e7992a78434fe"
+  integrity sha512-Af3KlhSW4kDHt1uCIo6Xxx5GvjhJox0aE7U7iopuTRq+x7pVGAGGPGBybXw2Bu9mBSTE33GcTcfRbG4oB7/cww==
+
 "@opentelemetry/api@0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-0.14.0.tgz#4e17d8d2f1da72b19374efa7b6526aa001267cae"
