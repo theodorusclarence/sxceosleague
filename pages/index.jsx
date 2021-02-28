@@ -16,14 +16,15 @@ export default function Home() {
                                 </h1>
                                 <h3>StudentsxCEOs League</h3>
                                 <ButtonLink
-                                    href='/open-recruitment'
+                                    href='/staff-enrollment'
                                     className='mt-4'
                                 >
-                                    Register Volunteer
+                                    Register Staff
                                 </ButtonLink>
                             </article>
                             <figure className='absolute select-none -bottom-12 left-8 w-44 md:w-72 md:left-auto md:-right-32 animate-float'>
                                 <Image
+                                    priority
                                     width={997}
                                     height={1000}
                                     layout='responsive'
@@ -33,6 +34,7 @@ export default function Home() {
                             </figure>
                             <figure className='absolute right-0 select-none bottom-12 md:hidden w-44 animate-float float-delay-2'>
                                 <Image
+                                    priority
                                     width={261}
                                     height={366}
                                     layout='responsive'
@@ -42,6 +44,7 @@ export default function Home() {
                             </figure>
                             <figure className='absolute w-32 select-none top-12 -right-12 md:-right-20 md:w-52 '>
                                 <Image
+                                    priority
                                     width={534}
                                     height={366}
                                     layout='responsive'
@@ -51,6 +54,7 @@ export default function Home() {
                             </figure>
                             <figure className='absolute top-0 hidden select-none md:block md:w-32 left-48'>
                                 <Image
+                                    priority
                                     width={306}
                                     height={1128}
                                     layout='responsive'
@@ -60,6 +64,7 @@ export default function Home() {
                             </figure>
                             <figure className='absolute z-0 select-none -left-12 w-60 float-delay top-1/4 md:top-auto md:bottom-28 md:left-4 md:w-96 animate-float'>
                                 <Image
+                                    priority
                                     width={1026}
                                     height={1026}
                                     layout='responsive'
@@ -105,6 +110,7 @@ export default function Home() {
                         <div className='relative flex flex-col items-center justify-end h-full layout-right'>
                             <figure className='w-8 select-none md:w-28'>
                                 <Image
+                                    priority
                                     width={460}
                                     height={1132}
                                     layout='responsive'

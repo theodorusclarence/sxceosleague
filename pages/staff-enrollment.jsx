@@ -5,7 +5,7 @@ const title = 'Open Recruitment StudentsxCEOsLeague';
 const description = 'Join us on StudentsXCEOsLeague Volunteers';
 const url = 'https://sxceosleague.com/open-recruitment';
 
-export default function OpenRecruitmentPage() {
+export default function StaffEnrollmentPage() {
     return (
         <>
             <NextSeo
