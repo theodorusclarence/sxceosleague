@@ -1,8 +1,8 @@
 import { NextSeo } from 'next-seo';
 import ButtonLink from '@/components/ButtonLink';
 
-const title = 'Open Recruitment StudentsxCEOsLeague';
-const description = 'Join us on StudentsXCEOsLeague Volunteers';
+const title = 'Staff Enrollment StudentsxCEOsLeague';
+const description = 'Join us on StudentsXCEOsLeague';
 const url = 'https://sxceosleague.com/open-recruitment';
 
 export default function StaffEnrollmentPage() {
