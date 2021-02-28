@@ -1,77 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700;900&family=Poppins:wght@300;400;500&display=swap');
 
 @tailwind base;
-/* //* Move this to original place */
 @tailwind components;
 @tailwind utilities;
 
-/* Write your own custom base styles here */
-h1,
-h2,
-h3,
-h4 {
-    @apply font-bold font-primary;
-}
-
-h1 {
-    @apply text-3xl md:text-5xl;
-}
-
-h2 {
-    @apply text-2xl md:text-4xl;
-}
-
-h3 {
-    @apply text-xl md:text-3xl;
-}
-
-h4 {
-    @apply text-lg;
-}
-
-body {
-    @apply font-body;
-}
-
-.layout {
-    /* 750px */
-    max-width: 70rem;
-    @apply w-11/12 mx-auto;
-}
-
-/* Start purging... */
-/* @tailwind components; */
-/* Stop purging. */
-
-/* Write your own custom component styles here */
-.btn-blue {
-    @apply px-4 py-2 font-bold text-white bg-blue-500 rounded;
-}
-
-/* Start purging... */
-/* @tailwind utilities; */
-/* Stop purging. */
-
-/* Your own custom utilities */
-.animate-float {
-    animation: float 3s infinite ease-out;
-}
-
-.float-delay {
-    animation-delay: 1s;
-}
-.float-delay-2 {
-    animation-delay: 1.9s;
-}
-
-@keyframes float {
-    0% {
-        transform: translatey(0);
+@layer base {
+    h1,
+    h2,
+    h3,
+    h4 {
+        @apply font-bold font-primary;
     }
-    50% {
-        transform: translatey(1rem);
+
+    h1 {
+        @apply text-3xl md:text-5xl;
     }
-    100% {
-        transform: translatey(0);
+
+    h2 {
+        @apply text-2xl md:text-4xl;
+    }
+
+    h3 {
+        @apply text-xl md:text-3xl;
+    }
+
+    h4 {
+        @apply text-lg;
+    }
+
+    body {
+        @apply font-body;
+    }
+
+    .layout {
+        /* 750px */
+        max-width: 70rem;
+        @apply w-11/12 mx-auto;
+    }
+}
+
+@layer utilities {
+    .animate-float {
+        animation: float 3s infinite ease-out;
+    }
+
+    .float-delay {
+        animation-delay: 1s;
+    }
+    .float-delay-2 {
+        animation-delay: 1.9s;
+    }
+
+    .full-border-orange {
+        /* Utility to make border primary to full size */
+        background-image: linear-gradient(transparent, transparent),
+            linear-gradient(to right, #fdb26e, #fcc86c);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        border-color: transparent;
+    }
+
+    @keyframes float {
+        0% {
+            transform: translatey(0);
+        }
+        50% {
+            transform: translatey(1rem);
+        }
+        100% {
+            transform: translatey(0);
+        }
     }
 }

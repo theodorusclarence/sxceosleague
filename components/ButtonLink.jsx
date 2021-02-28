@@ -5,7 +5,11 @@ export default function ButtonLink(props) {
 
     return (
         <UnstyledLink
-            className={`${className} inline-block py-2 px-4 bg-gradient-to-r from-sorange-600 to-sorange-400 hover:from-sorange-400 text-gray-700 rounded-lg font-bold`}
+            className={`${className} inline-flex items-center justify-center py-2 px-4 ${
+                props.outline
+                    ? 'text-sorange-400 bg-transparent hover:bg-white border-2 hover:bg-opacity-10 border-sorange-400'
+                    : 'text-gray-700 bg-gradient-to-r from-sorange-600 to-sorange-400 hover:from-sorange-400 '
+            } rounded-lg font-bold focus:outline-none `}
             {...other}
         >
             {children}
