@@ -7,8 +7,7 @@ export default function Footer() {
         <footer className='flex flex-col items-center justify-center pt-4'>
             <div
                 style={{
-                    boxShadow:
-                        '13.8028px 20.2982px 77.133px rgba(85, 56, 143, 0.35)',
+                    boxShadow: '0px 2px 15px rgba(154, 24, 249, 0.25)',
                 }}
                 className='flex items-center px-8 py-2 space-x-4 text-2xl text-white rounded-full bg-spurple-400'
             >
