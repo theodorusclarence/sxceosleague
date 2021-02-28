@@ -103,19 +103,6 @@
     .view:hover {
         background-size: 0 4px, 100% 4px;
     }
-
-    .slick-prev {
-        left: -33px;
-    }
-
-    .slick-next {
-        right: -7px;
-    }
-
-    .slick-prev::before,
-    .slick-next::before {
-        content: none;
-    }
 }
 
 @layer utilities {
@@ -150,4 +137,17 @@
             transform: translatey(0);
         }
     }
+}
+
+.slick-prev::before,
+.slick-next::before {
+    content: none;
+    display: none;
+}
+
+.slick-prev {
+    left: -15px;
+}
+.slick-next {
+    right: -15px;
 }

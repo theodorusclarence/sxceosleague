@@ -1,6 +1,10 @@
 import Image from 'next/image';
 import Slider from 'react-slick';
-import { MdArrowForward } from 'react-icons/md';
+import {
+    MdArrowForward,
+    MdKeyboardArrowLeft,
+    MdKeyboardArrowRight,
+} from 'react-icons/md';
 import UnstyledLink from './UnstyledLink';
 import { eventsData } from '@/data/data';
 
@@ -11,6 +15,16 @@ export default function EventLists() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        prevArrow: (
+            <button>
+                <MdKeyboardArrowLeft className='text-xl text-spurple-800' />
+            </button>
+        ),
+        nextArrow: (
+            <button>
+                <MdKeyboardArrowRight className='text-xl text-spurple-800' />
+            </button>
+        ),
     };
 
     return (
