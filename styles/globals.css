@@ -79,13 +79,42 @@
     }
 
     body {
-        @apply font-body;
+        @apply text-sm md:text-base font-body;
     }
 
     .layout {
         /* 750px */
         max-width: 70rem;
         @apply w-11/12 mx-auto;
+    }
+}
+
+@layer components {
+    .view {
+        background-image: linear-gradient(#33333300, #33333300),
+            linear-gradient(to right, #85f0b1, #3fcbed);
+        background-size: 100% 4px, 0 4px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.3s ease;
+    }
+
+    .view-container:hover .view,
+    .view:hover {
+        background-size: 0 4px, 100% 4px;
+    }
+
+    .slick-prev {
+        left: -33px;
+    }
+
+    .slick-next {
+        right: -7px;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+        content: none;
     }
 }
 
