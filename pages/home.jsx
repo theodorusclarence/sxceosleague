@@ -19,12 +19,14 @@ export default function HomePage() {
                             width={200}
                             height={800}
                             priority
+                            loading='eager'
                             layout='responsive'
                         />
                     </figure>
                     <figure className='absolute w-32 pointer-events-none right-12 top-24 animate-float md:top-52 md:right-52 md:w-48 lg:right-80'>
                         <Image
                             priority
+                            loading='eager'
                             width={182}
                             height={181}
                             layout='responsive'
@@ -41,6 +43,7 @@ export default function HomePage() {
                             width={424}
                             height={742}
                             priority
+                            loading='eager'
                             layout='responsive'
                         />
                     </figure>
@@ -51,6 +54,7 @@ export default function HomePage() {
                                 width={77}
                                 height={113}
                                 priority
+                                loading='eager'
                                 layout='responsive'
                                 alt='Logo'
                             />
