@@ -15,9 +15,9 @@ export const eventsData = [
     },
     {
         id: 3,
-        title: 'Youth Conference',
+        title: 'Conference',
         excerpt:
             'An adapted version of contributing and sharing your potential idea in policy-making recommendation with students all over Indonesia. A deeper analysis packed in a fruitful discussion with expert will be facilitated in this conference and participants will get a bigger chance to enhance their knowledge.',
-        route: '/youth-conference',
+        route: '/conference',
     },
 ];
