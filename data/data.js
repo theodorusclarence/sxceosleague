@@ -8,10 +8,10 @@ export const eventsData = [
     },
     {
         id: 2,
-        title: 'CEO Challenge',
+        title: 'IBL Case Challenge',
         excerpt:
-            'Brace yourself to meet your peers with various perspectives and buckle up, as we immerse into the business world and work through its problem in digitalization. Be prepared to widen your breadth of view and come out brighter than before.',
-        route: '/ceo-challenge',
+            'The Innovative Business Leaders Case Challenge is a case based competition that will encourage each participant to see himself as a leader, who is responsible for solving a business problem of a company in a creative and innovative way with a high level of realization and practice.',
+        route: '/ibl-case-challenge',
     },
     {
         id: 3,
