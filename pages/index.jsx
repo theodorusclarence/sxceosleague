@@ -76,7 +76,8 @@ export default function Home() {
                                 <a
                                     rel='noopener noreferer'
                                     target='_blank'
-                                    href='#'
+                                    href='https://instagram.com/studentsxceosleague?igshid=zpjn1z16yw1g'
+                                    title='Go To Instagram'
                                 >
                                     <img
                                         className='w-8 h-8 md:w-10 md:h-10'
@@ -87,6 +88,7 @@ export default function Home() {
                                     rel='noopener noreferer'
                                     target='_blank'
                                     href='#'
+                                    title='Go To LinkedIn'
                                 >
                                     <img
                                         className='w-8 h-8 md:w-10 md:h-10'
@@ -97,10 +99,11 @@ export default function Home() {
                                     rel='noopener noreferer'
                                     target='_blank'
                                     href='#'
+                                    title='Go To Facebook'
                                 >
                                     <img
                                         className='w-8 h-8 md:w-10 md:h-10'
-                                        src='/images/logo-mail.svg'
+                                        src='/images/logo-fb.svg'
                                     />
                                 </a>
                             </div>
