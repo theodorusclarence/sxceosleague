@@ -87,7 +87,7 @@ export default function Home() {
                                 <a
                                     rel='noopener noreferer'
                                     target='_blank'
-                                    href='#'
+                                    href='https://www.linkedin.com/company/studentsxceos-league/'
                                     title='Go To LinkedIn'
                                 >
                                     <img
@@ -98,7 +98,7 @@ export default function Home() {
                                 <a
                                     rel='noopener noreferer'
                                     target='_blank'
-                                    href='#'
+                                    href='https://www.facebook.com/leaders.leaders.142/'
                                     title='Go To Facebook'
                                 >
                                     <img
