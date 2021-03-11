@@ -91,6 +91,22 @@ class MyDocument extends Document {
                         href='/favicon/favicon.ico'
                         type='image/x-icon'
                     ></link>
+
+                    {/* GOOGLE ANALYTICS */}
+                    <script
+                        async
+                        src='https://www.googletagmanager.com/gtag/js?id=G-31S3V71Y64'
+                    />
+                    <script
+                        dangerouslySetInnerHTML={{
+                            __html: `window.dataLayer = window.dataLayer || [];
+                                    function gtag(){dataLayer.push(arguments);}
+                                    gtag('js', new Date());
+
+                                    gtag('config', 'G-31S3V71Y64');
+                                    `,
+                        }}
+                    />
                 </Head>
                 <body>
                     <Main />
