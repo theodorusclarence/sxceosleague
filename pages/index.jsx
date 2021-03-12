@@ -15,12 +15,12 @@ export default function Home() {
                                     Coming Soon
                                 </h1>
                                 <h3>StudentsxCEOs League</h3>
-                                {/* <ButtonLink
+                                <ButtonLink
                                     href='/staff-enrollment'
                                     className='mt-4'
                                 >
-                                    Register Staff
-                                </ButtonLink> */}
+                                    Staff Enrollment
+                                </ButtonLink>
                             </article>
                             <figure className='absolute select-none -bottom-12 left-8 w-44 md:w-72 md:left-auto md:-right-32 animate-float'>
                                 <Image

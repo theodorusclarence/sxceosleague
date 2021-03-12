@@ -47,7 +47,7 @@ export default function StaffEnrollmentPage() {
                             className='mt-4'
                             href='https://bit.ly/SxCStaff'
                         >
-                            Register Now
+                            Enroll Now
                         </ButtonLink>
                     </div>
 
