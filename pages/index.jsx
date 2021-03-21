@@ -10,9 +10,9 @@ export default function Home() {
                 <div className='grid h-screen overflow-hidden text-white parent'>
                     <main className=' bg-gradient-to-br from-spurple-500 to-spurple-600'>
                         <div className='relative z-10 flex items-center justify-center h-full layout-left'>
-                            <article className='z-10 flex flex-col items-start mx-auto md:transform md:translate-x-16 lg:translate-x-28'>
-                                <h1 className='text-6xl md:text-8xl'>
-                                    Coming Soon
+                            <article className='z-10 flex flex-col items-start mx-auto md:transform md:translate-x-16 lg:translate-x-24'>
+                                <h1 className='text-5xl md:text-8xl'>
+                                    We're Recruiting!
                                 </h1>
                                 <h3>StudentsxCEOs League</h3>
                                 <ButtonLink
