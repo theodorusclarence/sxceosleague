@@ -53,7 +53,7 @@ function EventCard({ event: { title, excerpt, route, id } }) {
                 <p className='max-w-lg mb-4 leading-7 text-gray-800'>
                     {excerpt}
                 </p>
-                <UnstyledLink
+                {/* <UnstyledLink
                     href={route}
                     className='block py-1 view-container'
                 >
@@ -63,7 +63,7 @@ function EventCard({ event: { title, excerpt, route, id } }) {
                             <MdArrowForward />
                         </span>
                     </div>
-                </UnstyledLink>
+                </UnstyledLink> */}
             </div>
             <style jsx>{`
                 /* 768 md: */

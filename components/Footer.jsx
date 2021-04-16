@@ -11,13 +11,13 @@ export default function Footer() {
                 }}
                 className='flex items-center px-8 py-2 space-x-4 text-2xl text-white rounded-full bg-spurple-400'
             >
-                <UnstyledLink href='#'>
+                <UnstyledLink href='https://instagram.com/studentsxceosleague?igshid=zpjn1z16yw1g'>
                     <IoLogoInstagram />
                 </UnstyledLink>
-                <UnstyledLink href='#'>
+                <UnstyledLink href='https://www.linkedin.com/company/studentsxceos-league/'>
                     <IoLogoLinkedin />
                 </UnstyledLink>
-                <UnstyledLink href='#'>
+                <UnstyledLink href='mailto:sxceosleague@gmail.com'>
                     <HiOutlineMail className='text-3xl' />
                 </UnstyledLink>
             </div>

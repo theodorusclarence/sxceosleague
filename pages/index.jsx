@@ -69,8 +69,11 @@ export default function HomePage() {
                             Java, which is aimed to become a Development
                             Platform.
                         </p>
-                        <ButtonLink className='self-start' href='/register'>
-                            Register Now
+                        <ButtonLink
+                            className='self-start'
+                            href='https://tiny.cc/RegistrationTnD'
+                        >
+                            Register Talks and Discussion
                         </ButtonLink>
                     </article>
                 </section>
