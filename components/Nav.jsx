@@ -4,7 +4,7 @@ import UnstyledLink from './UnstyledLink';
 
 export default function Nav() {
     return (
-        <nav className='fixed top-0 z-10 w-full bg-white'>
+        <nav className='fixed top-0 z-10 w-full h-16 bg-white'>
             <div className='flex items-center justify-between py-2 text-black layout'>
                 <UnstyledLink href='/'>
                     <figure className='w-28 md:w-40'>
