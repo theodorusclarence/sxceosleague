@@ -1,14 +1,8 @@
-import { useEffect, useState } from 'react';
 import { NextSeo } from 'next-seo';
 import Nav from '@/components/Nav';
+import { links } from '@/data/links';
 
 export default function link() {
-    const [links, setLinks] = useState([]);
-    useEffect(() => {
-        fetch('/api/links')
-            .then((res) => res.json())
-            .then((data) => setLinks(data));
-    }, []);
     return (
         <>
             <NextSeo />
