@@ -1,11 +1,10 @@
 import Image from 'next/image';
-import ButtonLink from './ButtonLink';
 import UnstyledLink from './UnstyledLink';
 
 export default function Nav() {
     return (
-        <nav className='fixed top-0 z-10 w-full bg-white'>
-            <div className='flex items-center justify-between py-2 text-black layout'>
+        <nav className='fixed top-0 z-50 w-full bg-white'>
+            <div className='flex items-center justify-between h-16 py-2 text-black layout'>
                 <UnstyledLink href='/'>
                     <figure className='w-28 md:w-40'>
                         <Image
