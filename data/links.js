@@ -4,11 +4,11 @@ export const links = [
         url: 'https://tiny.cc/RegistrationTnD',
     },
     {
-        label: 'Register Talks and Discussion',
-        url: 'https://tiny.cc/RegistrationTnD',
+        label: 'Tiktok',
+        url: 'https://vt.tiktok.com/ZSJhaoYaU/',
     },
     {
-        label: 'Register Talks and Discussion',
-        url: 'https://tiny.cc/RegistrationTnD',
+        label: 'LinkedIn',
+        url: 'https://www.linkedin.com/company/studentsxceos-league/',
     },
 ];
