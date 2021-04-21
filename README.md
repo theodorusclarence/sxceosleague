@@ -1,27 +1,44 @@
-This is a NextJs and Tailwind project bootstrapped using nextjs-tailwind-starter created by [Theodorus Clarence](https://github.com/theodorusclarence/nextjs-tailwind-starter).
+# StudentsXCEOs League
 
-## Getting Started
+This website is used for StudentsXCEOs League 2021
 
-To use this starter, you can use create-next-app to do it by:
-```bash
-npx create-next-app -e https://github.com/theodorusclarence/nextjs-tailwind-starter project-name
-```
+## Contributing Git Convention
 
-First, run the development server:
+This website follows [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/)
+### Format
+`<type>(optional scope): <description>`
+Contoh: `feat(pre-event): add speakers section`
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Type:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Type yang bisa digunakan adalah:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- feat → Kalo ada penambahan/pengurangan codingan
+- fix → kalo ada bug fixing
+- BREAKING CHANGE → kalo ada perubahan yang signifikan (ubah login flow)
+- docs → update documentation (README.md)
+- styling → update styling, ga ngubah logic sama sekali (reorder import, benerin whitespace)
+- vercel → kalo ada commit kosong buat trigger. Contoh: `vercel: trigger deployment`
+- ci → update github workflow
+- test → update testing
+- perf → fix sesuatu yang bersifat cuma untuk performance issue (derived state, memo)
 
-## What's Inside
+### Optional Scope:
 
-This starter file has a opinionated styling for heading with responsive size and Montserrat font imported from the google fonts.
+Contoh labeling per page `feat(pre-event): add date label`
 
-There is also Seo Component to customize page title and opengraph meta tags.
-SEO is using next-seo packages, make sure you configure next-seo.config.js to your preferred
+*kalo gaada scopenya, gausa ditulis.
+
+- pre-event
+- conference
+- ibl-case
+
+### Description:
+
+Description harus bisa mendeskripsikan apa yang dikerjakan. Jika ada beberapa hal yang dikerjakan, maka lakukan commit secara bertahap.
+
+- Setelah titik dua, ada spasi. Contoh: `feat: add something`
+- Kalo type `fix` langsung sebut aja issuenya apa. Contoh:  `fix: file size limiter not working`
+- Gunakan kata imperative, present tense: "change" bukan "changed" atau "changes"
+- Gunakan huruf kecil di semua description. Jangan berikan huruf besar di depan kalimat
+- Jangan tambahkan titik di akhir description
