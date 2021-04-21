@@ -4,13 +4,26 @@ import Image from 'next/image';
 import Nav from '@/components/Nav';
 import { links } from '@/data/links';
 import ButtonLink from '@/components/ButtonLink';
-import UnstyledLink from '@/components/UnstyledLink';
 import SquareLink from '@/components/SquareLink';
+
+const title = 'Links StudentsxCEOs League';
+const description =
+    'Link shortcut for StudentsxCEOs League – a platform for selected Indonesian students to gain insights and create innovative solutions.';
+const url = 'https://sxceosleague.com/links';
 
 export default function link() {
     return (
         <>
-            <NextSeo />
+            <NextSeo
+                title={title}
+                description={description}
+                canonical={url}
+                openGraph={{
+                    url,
+                    title,
+                    description,
+                }}
+            />
             <Nav />
             <section className=''>
                 <div className='grid h-screen overflow-hidden text-white parent'>
