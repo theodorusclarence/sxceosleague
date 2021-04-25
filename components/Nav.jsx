@@ -27,7 +27,7 @@ export default function Nav() {
                     <li>
                         <UnstyledLink
                             className='inline-flex items-center justify-center px-6 py-2 text-sm font-bold tracking-wide text-white transition rounded-lg font-primary md:text-base bg-gradient-to-r from-spurple-500 to-spurple-600 hover:to-spurple-500 focus:outline-none'
-                            href='/'
+                            href='/links'
                         >
                             Register
                         </UnstyledLink>
