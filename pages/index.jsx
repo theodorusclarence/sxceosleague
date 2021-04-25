@@ -69,12 +69,12 @@ export default function HomePage() {
                             Java, which is aimed to become a Development
                             Platform.
                         </p>
-                        <ButtonLink
+                        {/* <ButtonLink
                             className='self-start'
                             href='https://tiny.cc/RegistrationTnD'
                         >
                             Register Talks and Discussion
-                        </ButtonLink>
+                        </ButtonLink> */}
                     </article>
                 </section>
                 <section className='bg-beige'>
