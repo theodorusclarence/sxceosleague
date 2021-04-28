@@ -1,13 +1,14 @@
 import { useState } from 'react';
 import { NextSeo } from 'next-seo';
 import Image from 'next/image';
+import { IoArrowDownOutline } from 'react-icons/io5';
 
 import Nav from '@/components/Nav';
 import ButtonLink from '@/components/ButtonLink';
 import Footer from '@/components/Footer';
-import { tabData } from '@/data/pre-event';
 import PurpleLabel from '@/components/PurpleLabel';
-import { IoArrowDownOutline } from 'react-icons/io5';
+import SquareCarousel from '@/components/SquareCarousel';
+import { tabData } from '@/data/pre-event';
 
 const tabList = [
     { name: 'Talks and Discussion Session', id: 1 },
@@ -158,17 +159,25 @@ export default function PreEvent() {
                                     {tabData[selected - 1].buttonText}
                                 </ButtonLink>
                             </div>
-                            <figure className='w-full mt-8 overflow-hidden rounded-3xl md:mt-0'>
-                                {/* //* Logo */}
-                                <Image
-                                    src='/images/events/img1.jpg'
-                                    width={493}
-                                    height={280}
-                                    loading='eager'
-                                    layout='responsive'
-                                    alt='Logo'
-                                />
-                            </figure>
+                            {/* If Mini Challenge, then show carousel */}
+                            {selected === 2 ? (
+                                <div className='w-full mt-8 md:w-1/3'>
+                                    <SquareCarousel />
+                                </div>
+                            ) : (
+                                <figure className='w-full mt-8 overflow-hidden rounded-3xl md:mt-0'>
+                                    {/* //* Logo */}
+                                    <Image
+                                    className='bg-gray-300'
+                                        src='/images/events/img1.jpg'
+                                        width={493}
+                                        height={280}
+                                        loading='eager'
+                                        layout='responsive'
+                                        alt='Image'
+                                    />
+                                </figure>
+                            )}
                         </div>
                     </article>
                 </section>
