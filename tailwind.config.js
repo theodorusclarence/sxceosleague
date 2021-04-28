@@ -26,7 +26,7 @@ module.exports = {
                     600: '#FDB26E',
                     700: '#FDA750',
                 },
-                sred: { 500: '#f44e61', 600: '#FA8A97' },
+                sred: { 500: '#f44e61', 600: '#FA8A97', 700: '#EA4C6D' },
                 beige: '#FCF5EE',
             },
             spacing: {
