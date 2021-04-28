@@ -20,7 +20,12 @@ module.exports = {
                     600: '#4F56E9',
                     800: '#2a0b46',
                 },
-                sorange: { 400: '#FCC86C', 500: '#ffca6c', 600: '#FDB26E' },
+                sorange: {
+                    400: '#FCC86C',
+                    500: '#ffca6c',
+                    600: '#FDB26E',
+                    700: '#FDA750',
+                },
                 sred: { 500: '#f44e61', 600: '#FA8A97' },
                 beige: '#FCF5EE',
             },
