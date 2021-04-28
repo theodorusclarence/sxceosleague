@@ -55,7 +55,7 @@ export default function PreEvent() {
                             />
                         </figure>
                         <div className='max-w-xl space-y-4'>
-                            <PurpleLabel>StudentsXCEOs League</PurpleLabel>
+                            <PurpleLabel>StudentsxCEOs League</PurpleLabel>
                             <h1 className='text-5xl text-spurple-400 md:text-7xl'>
                                 Pre Event
                             </h1>
