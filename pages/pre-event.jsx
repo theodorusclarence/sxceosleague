@@ -73,7 +73,7 @@ export default function PreEvent() {
                         </div>
                         <figure
                             className='absolute cursor-pointer bottom-2 md:bottom-10 left-1/2'
-                            style={{ translateX: '-50%' }}
+                            style={{ transform: 'translateX(-50%)' }}
                             onClick={(e) => {
                                 e.preventDefault();
                                 window.scrollBy({
@@ -168,7 +168,7 @@ export default function PreEvent() {
                                 <figure className='w-full mt-8 overflow-hidden rounded-3xl md:mt-0'>
                                     {/* //* Logo */}
                                     <Image
-                                    className='bg-gray-300'
+                                        className='bg-gray-300'
                                         src='/images/events/img1.jpg'
                                         width={493}
                                         height={280}
