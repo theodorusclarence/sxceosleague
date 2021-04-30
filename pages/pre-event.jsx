@@ -11,13 +11,13 @@ import SquareCarousel from '@/components/SquareCarousel';
 import { tabData } from '@/data/pre-event';
 
 const tabList = [
-    { name: 'Talks and Discussion Session', id: 1 },
-    { name: 'Mini Challenge', id: 2 },
-    { name: 'Instagram Live Session', id: 3 },
+    { name: 'Talks and Discussion Session', id: '1' },
+    { name: 'Mini Challenge', id: '2' },
+    { name: 'Instagram Live Session', id: '3' },
 ];
 
 export default function PreEvent() {
-    const [selected, setSelected] = useState(2);
+    const [selected, setSelected] = useState('2');
     const handleTab = (e) => {
         setSelected(e.target.value);
     };
@@ -160,7 +160,7 @@ export default function PreEvent() {
                                 </ButtonLink>
                             </div>
                             {/* If Mini Challenge, then show carousel */}
-                            {selected === 2 ? (
+                            {selected === '2' ? (
                                 <div className='w-full mt-8 md:w-1/3'>
                                     <SquareCarousel />
                                 </div>
