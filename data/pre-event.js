@@ -13,7 +13,7 @@ export const tabData = [
         desc:
             'A mini case challenge to challenge your complex problem solving skills and to warm you up before the IBL Case Competition. Winners of this challenge will get some interesting prizes!',
         buttonText: 'Submit for the challenge',
-        href: '/',
+        href: '/r/mini-challenge',
     },
     {
         name: 'Instagram Live Session',
