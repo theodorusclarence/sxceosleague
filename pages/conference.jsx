@@ -1,0 +1,185 @@
+import Nav from '@/components/Nav';
+import PurpleLabel from '@/components/PurpleLabel';
+import ScrollDownArrow from '@/components/ScrollDownArrow';
+import { NextSeo } from 'next-seo';
+import Image from 'next/image';
+
+const title = 'Conference - StudentsxCEOs League';
+const description =
+    'An adapted version of contributing and sharing your potential idea in policy-making recommendation with students all over Indonesia.';
+const url = 'https://sxceosleague.com/conference';
+
+export default function Conference() {
+    return (
+        <div className='relative overflow-x-hidden'>
+            <NextSeo
+                title={title}
+                description={description}
+                canonical={url}
+                openGraph={{
+                    url,
+                    title,
+                    description,
+                }}
+            />
+            <Nav />
+            <main>
+                {/* HERO SECTION */}
+                <section className='relative bg-watusi'>
+                    <figure className='select-none pointer-events-none absolute w-[700px] left-1/4 -bottom-40 md:left-1/2 md:w-[1200px] md:bottom-auto md:top-1/2 transform md:-translate-y-1/2 md:pl-10 md:pt-80'>
+                        {/* Triangle Illustration */}
+                        <Image
+                            src='/images/conference/bg-polygon-2.png'
+                            width={1400}
+                            height={1400}
+                            priority
+                            loading='eager'
+                            layout='responsive'
+                            alt='Polygon Illustration'
+                        />
+                    </figure>
+                    <article className='relative flex flex-col items-start justify-center min-h-screen text-black md:items-center md:justify-between md:flex-row-reverse layout'>
+                        {/* Add spacing when stacking vertically */}
+                        <figure className='w-20 mb-8 md:w-72 md:mb-0'>
+                            {/* Logo */}
+                            <Image
+                                src='/images/logo/conference.png'
+                                width={396}
+                                height={403}
+                                priority
+                                loading='eager'
+                                layout='responsive'
+                                alt='Logo-Conference'
+                            />
+                        </figure>
+                        <div className='max-w-xl space-y-4'>
+                            <PurpleLabel>StudentsxCEOs League</PurpleLabel>
+                            <h1 className='text-5xl text-spurple-400 md:text-7xl'>
+                                Conference
+                            </h1>
+                            <p className='leading-6 text-gray-900 md:leading-8'>
+                                An adapted version of contributing and sharing
+                                your potential idea in policy-making
+                                recommendation with students all over Indonesia.
+                                A deeper analysis packed in a fruitful
+                                discussion with experts will be facilitated in
+                                this conference and participants will get a
+                                bigger chance to enhance their knowledge
+                            </p>
+                            {/* <ButtonLink href='/' className='inline-block'>
+                                Button
+                            </ButtonLink> */}
+                        </div>
+                        <ScrollDownArrow />
+                    </article>
+                </section>
+                <section className='bg-gradient-to-r from-geraldine to-goldentainoi'>
+                    <article className='min-h-screen py-16 space-y-8 layout'>
+                        <h2 className='text-center text-white mb-14'>
+                            Chambers
+                        </h2>
+                        <div className='flex flex-col p-8 md:p-16 md:x-16 md:py-20 rounded-xl bg-beige md:flex-row md:space-x-8 md:items-center pre-event'>
+                            <div className='w-full space-y-4'>
+                                <h3>
+                                    Workforce Employment Policy After the
+                                    COVID-19 Pandemic
+                                </h3>
+                                <p className='leading-6 text-justify md:leading-8'>
+                                    Employment is one of the issues that is
+                                    often been discussed during the pandemic. A
+                                    lot of changes happened especially for the
+                                    requirement of workers. A new skill set,
+                                    adaptability, and change management will be
+                                    the future tools to survive in the work
+                                    field even after the pandemic. This Chamber
+                                    will discuss how Indonesia should evaluate
+                                    its employment policies to prepare a
+                                    workforce environment that is sovereign,
+                                    fair, skilful and just.
+                                </p>
+                            </div>
+                            <div className='w-full mt-8 md:w-1/2'>
+                                <figure>
+                                    <Image
+                                        className='bg-transparent'
+                                        src={'/images/conference/dummy.png'}
+                                        width={1400}
+                                        height={1000}
+                                        alt={`content-picture`}
+                                    />
+                                </figure>
+                            </div>
+                        </div>
+                        <div className='flex flex-col p-8 md:p-16 md:x-16 md:py-20 rounded-xl bg-beige md:flex-row md:space-x-8 md:items-center pre-event'>
+                            <div className='w-full space-y-4'>
+                                <h3>
+                                    Indonesia’s Readiness on Embracing
+                                    Digitalization on the Industry 4.0 Era
+                                </h3>
+                                <p className='leading-6 text-justify md:leading-8'>
+                                    The era of disruption that we are facing
+                                    demands various changes in the fabric of our
+                                    society, one of which is digitization. This
+                                    Chamber will discuss how Indonesia's
+                                    readiness is to welcome Industry 4.0 in
+                                    terms of human resources, technology,
+                                    bureaucracy, and regulatory framework along
+                                    with how to tackle its challenges.
+                                </p>
+                            </div>
+                            <div className='w-full mt-8 md:w-1/2'>
+                                <figure>
+                                    <Image
+                                        className='bg-transparent'
+                                        src={'/images/conference/dummy.png'}
+                                        width={1400}
+                                        height={1000}
+                                        alt={`content-picture`}
+                                    />
+                                </figure>
+                            </div>
+                        </div>
+                        <div className='flex flex-col p-8 md:p-16 md:x-16 md:py-20 rounded-xl bg-beige md:flex-row md:space-x-8 md:items-center pre-event'>
+                            <div className='w-full space-y-4'>
+                                <h3>
+                                    The Implementation of Green Industrial
+                                    Policy in Indonesia
+                                </h3>
+                                <p className='leading-6 text-justify md:leading-8'>
+                                    Climate change has been the main concern for
+                                    every state as the destruction towards the
+                                    environment happens time by time. Increased
+                                    sea level, submerged islands, polluted air
+                                    and water, and severely injured ecosystems
+                                    are several impacts that occur as
+                                    consequences. Industrialization has been
+                                    said as the main contributor towards the
+                                    destruction happening and thus the urgency
+                                    to apply Green Industrial Policy has been
+                                    increasing all around the world, especially
+                                    to the country with a huge number of
+                                    industries in it. This chamber will discuss
+                                    the implementation of Green Industrial
+                                    Policy in Indonesia, the impact of it, and
+                                    how to make it sustainable as a way to
+                                    preserve the environment.
+                                </p>
+                            </div>
+                            <div className='w-full mt-8 md:w-1/2'>
+                                <figure>
+                                    <Image
+                                        className='bg-transparent'
+                                        src={'/images/conference/dummy.png'}
+                                        width={1400}
+                                        height={1000}
+                                        alt={`content-picture`}
+                                    />
+                                </figure>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </main>
+        </div>
+    );
+}
