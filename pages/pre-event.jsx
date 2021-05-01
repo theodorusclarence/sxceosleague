@@ -13,6 +13,7 @@ import {
     igLiveCarousel,
     miniChallengeCarousel,
     tabData,
+    tndCarousel,
 } from '@/data/pre-event';
 
 const tabList = [
@@ -194,18 +195,9 @@ export default function PreEvent() {
                             </div>
                             {/* If Talks and Discussion, then show image */}
                             {selected === '1' ? (
-                                <figure className='w-full mt-8 overflow-hidden rounded-3xl md:mt-0'>
-                                    {/* //* Logo */}
-                                    <Image
-                                        className='bg-gray-300'
-                                        src='/images/events/img1.jpg'
-                                        width={493}
-                                        height={280}
-                                        loading='eager'
-                                        layout='responsive'
-                                        alt='Image'
-                                    />
-                                </figure>
+                                <div className='w-full mt-8 md:w-1/3'>
+                                    <SquareCarousel images={tndCarousel} />
+                                </div>
                             ) : null}
                             {/* If Mini Challenge, then show carousel */}
                             {/* //TODO MINICHALLENGE uncomment below*/}

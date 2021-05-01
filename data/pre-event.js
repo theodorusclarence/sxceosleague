@@ -1,7 +1,7 @@
 export const tabData = [
     {
         name: 'Talks and Discussion Session',
-        time: '27 May',
+        time: '25 April & 27 May',
         desc:
             'A session where audiences will gain knowledge from our speakers through an interactive discussion platform to prepare youth for the professional career world.',
         buttonText: 'Coming Soon!',
@@ -26,6 +26,12 @@ export const tabData = [
         buttonText: 'Check out our instagram!',
         href: 'https://instagram.com/studentsxceosleague?igshid=zpjn1z16yw1g',
     },
+];
+
+export const tndCarousel = [
+    '/images/pre-event/tnd-1-1.jpg',
+    '/images/pre-event/tnd-1-2.jpg',
+    '/images/pre-event/tnd-1-3.jpg',
 ];
 
 // TODO MINICHALLENGE populate post
