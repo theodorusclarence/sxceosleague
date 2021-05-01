@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { NextSeo } from 'next-seo';
 import Image from 'next/image';
-import { IoArrowDownOutline } from 'react-icons/io5';
 
 import Nav from '@/components/Nav';
 import ButtonLink from '@/components/ButtonLink';
 import Footer from '@/components/Footer';
 import PurpleLabel from '@/components/PurpleLabel';
 import SquareCarousel from '@/components/SquareCarousel';
+import ScrollDownArrow from '@/components/ScrollDownArrow';
 
 import {
     igLiveCarousel,
@@ -89,20 +89,7 @@ export default function PreEvent() {
                                 Register
                             </ButtonLink> */}
                         </div>
-                        <figure
-                            className='absolute cursor-pointer bottom-2 md:bottom-10 left-1/2'
-                            style={{ transform: 'translateX(-50%)' }}
-                            onClick={(e) => {
-                                e.preventDefault();
-                                window.scrollBy({
-                                    top: window.innerHeight - 60,
-                                    left: 0,
-                                    behavior: 'smooth',
-                                });
-                            }}
-                        >
-                            <IoArrowDownOutline className='w-8 h-8 text-gray-700 md:w-10 md:h-10 animate-bounce' />
-                        </figure>
+                        <ScrollDownArrow />
                     </article>
                 </section>
                 {/* //* TAB SECTION */}
