@@ -151,3 +151,6 @@
 .slick-next {
     right: -15px;
 }
+.pre-event .slick-prev {
+    left: -30px;
+}
