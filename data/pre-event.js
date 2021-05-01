@@ -9,18 +9,31 @@ export const tabData = [
     },
     {
         name: 'Mini Challenge',
-        time: '2 - 15 May',
+        time: '5 - 13 May',
         desc:
             'A mini case challenge to challenge your complex problem solving skills and to warm you up before the IBL Case Competition. Winners of this challenge will get some interesting prizes!',
-        buttonText: 'Submit for the challenge',
-        href: '/r/mini-challenge',
+        buttonText: 'Coming Soon!',
+        href: null,
+        // TODO MINICHALLENGE replace with below
+        // buttonText: 'Submit for the challenge',
+        // href: '/r/mini-challenge',
     },
     {
         name: 'Instagram Live Session',
         time: '7 May & 18 June',
         desc:
             'A discussion session between us and interesting speakers through the Instagram Live feature. Get ready to hear the other side of every story!',
-        buttonText: 'Coming Soon!',
-        href: null,
+        buttonText: 'Check out our instagram!',
+        href: 'https://instagram.com/studentsxceosleague?igshid=zpjn1z16yw1g',
     },
 ];
+
+// TODO MINICHALLENGE populate post
+export const miniChallengeCarousel = [
+    // '/images/pre-event/test-post.png',
+    // '/images/pre-event/test-post.png',
+    // '/images/pre-event/test-post.png',
+    // '/images/pre-event/test-post.png',
+];
+
+export const igLiveCarousel = ['/images/pre-event/ig-live.jpg'];

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Slider from 'react-slick';
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 
-export default function SquareCarousel({ className, ...rest }) {
+export default function SquareCarousel({ className, images }) {
     const settings = {
         dots: true,
         infinite: false,
@@ -11,12 +11,12 @@ export default function SquareCarousel({ className, ...rest }) {
         slidesToScroll: 1,
         prevArrow: (
             <button>
-                <MdKeyboardArrowLeft className='text-xl text-spurple-800' />
+                <MdKeyboardArrowLeft className='text-4xl text-spurple-800' />
             </button>
         ),
         nextArrow: (
             <button>
-                <MdKeyboardArrowRight className='text-xl text-spurple-800' />
+                <MdKeyboardArrowRight className='text-4xl text-spurple-800' />
             </button>
         ),
     };
@@ -24,20 +24,19 @@ export default function SquareCarousel({ className, ...rest }) {
     return (
         <>
             <Slider {...settings} className={`${className} block`}>
-                {[1, 2, 3, 4, 5].map((item) => (
-                    <img src='/images/pre-event/test-post.png' alt='' />
+                {images.map((image, index) => (
+                    <figure key={image}>
+                        {/* <img key={image} src={image} alt={`Image ${index}`} /> */}
+                        <Image
+                            className='bg-gray-400'
+                            src={image}
+                            width={800}
+                            height={1000}
+                            alt={`Image ${index}`}
+                        />
+                    </figure>
                 ))}
             </Slider>
-            {/* <figure key={item}>
-                        <Image
-                            src='/images/events/img1.jpg'
-                            width={500}
-                            height={500}
-                            objectFit='cover'
-                            loading='eager'
-                            alt='Post'
-                        />
-                    </figure> */}
         </>
     );
 }
