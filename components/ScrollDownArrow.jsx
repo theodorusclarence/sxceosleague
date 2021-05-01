@@ -3,7 +3,7 @@ import { IoArrowDownOutline } from 'react-icons/io5';
 export default function ScrollDownArrow({ colorClass = 'text-gray-700' }) {
     return (
         <figure
-            className='absolute cursor-pointer bottom-2 md:bottom-10 left-1/2'
+            className='absolute cursor-pointer bottom-10 md:bottom-12 left-1/2'
             style={{ transform: 'translateX(-50%)' }}
             onClick={(e) => {
                 e.preventDefault();
