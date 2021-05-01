@@ -151,6 +151,16 @@
 .slick-next {
     right: -15px;
 }
+
+/* For large carousel */
 .pre-event .slick-prev {
     left: -30px;
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.pre-event .slick-next {
+    right: -30px;
+    width: 2.25rem;
+    height: 2.25rem;
 }

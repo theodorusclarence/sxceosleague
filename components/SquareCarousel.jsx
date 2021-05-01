@@ -10,12 +10,12 @@ export default function SquareCarousel({ className, images }) {
         slidesToShow: 1,
         slidesToScroll: 1,
         prevArrow: (
-            <button>
+            <button className='w-9 h-9'>
                 <MdKeyboardArrowLeft className='text-4xl text-spurple-800' />
             </button>
         ),
         nextArrow: (
-            <button>
+            <button className='w-9 h-9'>
                 <MdKeyboardArrowRight className='text-4xl text-spurple-800' />
             </button>
         ),
