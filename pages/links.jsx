@@ -55,6 +55,7 @@ export default function link() {
                                     Go to Website
                                 </ButtonLink>
                             </article>
+                            {/* Floating orange triangle illustration */}
                             <figure className='absolute select-none -bottom-12 left-8 w-44 md:w-72 md:left-auto md:-right-32 animate-float'>
                                 <Image
                                     priority
@@ -65,6 +66,7 @@ export default function link() {
                                     alt='illustration'
                                 />
                             </figure>
+                            {/* Mobile Only: Floating green triangle illustration */}
                             <figure className='absolute right-0 select-none bottom-12 md:hidden w-44 animate-float float-delay-2'>
                                 <Image
                                     priority
@@ -75,6 +77,7 @@ export default function link() {
                                     alt='illustration'
                                 />
                             </figure>
+                            {/* Desktop Only: Orange long illustration */}
                             <figure className='absolute top-0 hidden select-none md:block md:w-32 left-48'>
                                 <Image
                                     priority
@@ -85,6 +88,7 @@ export default function link() {
                                     alt='illustration'
                                 />
                             </figure>
+                            {/* Floating blue circle illustration */}
                             <figure className='absolute z-0 select-none -left-12 w-60 float-delay top-1/4 md:top-auto md:bottom-28 md:left-4 md:w-96 animate-float'>
                                 <Image
                                     priority
@@ -119,6 +123,7 @@ export default function link() {
                     </main>
                     <aside className='bg-gradient-to-b md:bg-gradient-to-r from-sgreen-500 to-sgreen-600'>
                         <div className='relative flex flex-col items-center justify-end h-full layout-right'>
+                            {/* Purple long illustration */}
                             <figure className='w-8 select-none md:w-28'>
                                 <Image
                                     priority

@@ -13,6 +13,7 @@ export default function HomePage() {
             <Nav />
             <main>
                 <section className='relative bg-gradient-to-r from-spurple-500 to-spurple-600'>
+                    {/* Orange long illustration */}
                     <figure className='absolute z-0 w-12 pointer-events-none top-6 right-16 md:right-64 md:w-20 lg:right-96'>
                         <Image
                             src='/images/long-illustration-2.png'
@@ -24,6 +25,7 @@ export default function HomePage() {
                             layout='responsive'
                         />
                     </figure>
+                    {/* Floating blue square illustration */}
                     <figure className='absolute w-32 pointer-events-none right-12 top-24 animate-float float-delay md:top-52 md:right-52 md:w-48 lg:right-80'>
                         <Image
                             priority
@@ -35,6 +37,7 @@ export default function HomePage() {
                             alt='illustration'
                         />
                     </figure>
+                    {/* Checkered quartet illustration */}
                     <figure
                         style={{ transform: 'translateY(42.9%)' }}
                         className='absolute bottom-0 right-0 z-0 pointer-events-none w-60 md:w-96 '
@@ -49,6 +52,7 @@ export default function HomePage() {
                         />
                     </figure>
                     <article className='relative flex flex-col justify-center min-h-screen space-y-4 text-white layout'>
+                        {/* Logo StudentsxCEOs League */}
                         <figure className='w-12 md:w-20'>
                             <Image
                                 src='/images/logo/logo.png'
