@@ -80,7 +80,10 @@ export default function HomePage() {
                         >
                             Register Talks and Discussion
                         </ButtonLink> */}
-                        <ScrollDownArrow colorClass='text-white' />
+                        {/* Hide on mobile */}
+                        <figure className='hidden md:block'>
+                            <ScrollDownArrow colorClass='text-white' />
+                        </figure>
                     </article>
                 </section>
                 <section className='bg-beige'>
