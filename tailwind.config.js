@@ -28,6 +28,9 @@ module.exports = {
                 },
                 sred: { 500: '#f44e61', 600: '#FA8A97', 700: '#EA4C6D' },
                 beige: '#FCF5EE',
+                watusi: '#FEE2D2',
+                geraldine: '#FF7B8A',
+                goldentainoi: '#FFC867',
             },
             spacing: {
                 120: '30rem',
