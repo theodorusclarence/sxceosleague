@@ -4,6 +4,7 @@ import Nav from '@/components/Nav';
 import ButtonLink from '@/components/ButtonLink';
 import EventLists from '@/components/EventLists';
 import Footer from '@/components/Footer';
+import { IoArrowDownOutline } from 'react-icons/io5';
 
 export default function HomePage() {
     return (
@@ -75,6 +76,20 @@ export default function HomePage() {
                         >
                             Register Talks and Discussion
                         </ButtonLink> */}
+                        <figure
+                            className='absolute cursor-pointer bottom-2 md:bottom-10 left-1/2'
+                            style={{ transform: 'translateX(-50%)' }}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.scrollBy({
+                                    top: window.innerHeight - 60,
+                                    left: 0,
+                                    behavior: 'smooth',
+                                });
+                            }}
+                        >
+                            <IoArrowDownOutline className='w-8 h-8 text-white md:w-10 md:h-10 animate-bounce' />
+                        </figure>
                     </article>
                 </section>
                 <section className='bg-beige'>
