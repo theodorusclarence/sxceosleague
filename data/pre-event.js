@@ -42,4 +42,10 @@ export const miniChallengeCarousel = [
     // '/images/pre-event/test-post.png',
 ];
 
-export const igLiveCarousel = ['/images/pre-event/ig-live.jpg'];
+export const igLiveCarousel = [
+    '/images/pre-event/ig-live-1.jpg',
+    '/images/pre-event/ig-live-2.jpg',
+    '/images/pre-event/ig-live-3.jpg',
+    '/images/pre-event/ig-live-4.jpg',
+    '/images/pre-event/ig-live-5.jpg',
+];

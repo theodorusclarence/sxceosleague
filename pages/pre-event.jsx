@@ -182,7 +182,7 @@ export default function PreEvent() {
                             </div>
                             {/* If Talks and Discussion, then show image */}
                             {selected === '1' ? (
-                                <div className='w-full mt-8 md:w-1/3'>
+                                <div className='w-full mt-8 md:w-2/5'>
                                     <SquareCarousel images={tndCarousel} />
                                 </div>
                             ) : null}
@@ -197,20 +197,8 @@ export default function PreEvent() {
                             ) : null} */}
                             {/* If IG Live, then show carousel */}
                             {selected === '3' ? (
-                                <div className='w-full mt-8 md:w-1/2'>
-                                    {/* <SquareCarousel images={igLiveCarousel} /> */}
-                                    <figure>
-                                        {/* <img key={image} src={image} alt={`Image ${index}`} /> */}
-                                        <Image
-                                            className='bg-gray-400'
-                                            src={
-                                                '/images/pre-event/ig-live.jpg'
-                                            }
-                                            width={800}
-                                            height={1000}
-                                            alt={`Image IG Live`}
-                                        />
-                                    </figure>
+                                <div className='w-full mt-8 md:w-2/5'>
+                                    <SquareCarousel images={igLiveCarousel} />
                                 </div>
                             ) : null}
                         </div>
