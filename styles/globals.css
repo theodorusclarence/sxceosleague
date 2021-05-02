@@ -139,6 +139,11 @@
     }
 }
 
+.gradient-purple {
+    background: linear-gradient(90deg, #9C1AF6 0%, #E84B71 100%);
+
+}
+
 .slick-prev::before,
 .slick-next::before {
     content: none;
