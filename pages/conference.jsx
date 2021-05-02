@@ -73,12 +73,13 @@ export default function Conference() {
                         <ScrollDownArrow />
                     </article>
                 </section>
+                {/* Chambers Section */}
                 <section className='bg-gradient-to-r from-geraldine to-goldentainoi'>
                     <article className='min-h-screen py-16 space-y-8 layout'>
                         <h2 className='text-center text-white mb-14'>
                             Chambers
                         </h2>
-                        <div className='flex flex-col p-8 md:p-16 md:x-16 md:py-20 rounded-xl bg-beige md:flex-row md:space-x-8 md:items-center pre-event'>
+                        <div className='flex flex-col p-8 md:p-16 md:x-16 md:py-20 rounded-xl bg-beige lg:flex-row md:space-x-8 md:items-center'>
                             <div className='w-full space-y-4'>
                                 <h3>
                                     Workforce Employment Policy After the
@@ -98,7 +99,7 @@ export default function Conference() {
                                     fair, skilful and just.
                                 </p>
                             </div>
-                            <div className='w-full mt-8 md:w-1/2'>
+                            <div className='w-full mt-8 lg:w-1/2'>
                                 <figure>
                                     <Image
                                         className='bg-transparent'
@@ -110,7 +111,7 @@ export default function Conference() {
                                 </figure>
                             </div>
                         </div>
-                        <div className='flex flex-col p-8 md:p-16 md:x-16 md:py-20 rounded-xl bg-beige md:flex-row md:space-x-8 md:items-center pre-event'>
+                        <div className='flex flex-col p-8 md:p-16 md:x-16 md:py-20 rounded-xl bg-beige lg:flex-row md:space-x-8 md:items-center pre-event'>
                             <div className='w-full space-y-4'>
                                 <h3>
                                     Indonesia’s Readiness on Embracing
@@ -127,7 +128,7 @@ export default function Conference() {
                                     with how to tackle its challenges.
                                 </p>
                             </div>
-                            <div className='w-full mt-8 md:w-1/2'>
+                            <div className='w-full mt-8 lg:w-1/2'>
                                 <figure>
                                     <Image
                                         className='bg-transparent'
@@ -139,7 +140,7 @@ export default function Conference() {
                                 </figure>
                             </div>
                         </div>
-                        <div className='flex flex-col p-8 md:p-16 md:x-16 md:py-20 rounded-xl bg-beige md:flex-row md:space-x-8 md:items-center pre-event'>
+                        <div className='flex flex-col p-8 md:p-16 md:x-16 md:py-20 rounded-xl bg-beige lg:flex-row md:space-x-8 md:items-center pre-event'>
                             <div className='w-full space-y-4'>
                                 <h3>
                                     The Implementation of Green Industrial
@@ -165,7 +166,7 @@ export default function Conference() {
                                     preserve the environment.
                                 </p>
                             </div>
-                            <div className='w-full mt-8 md:w-1/2'>
+                            <div className='w-full mt-8 lg:w-1/2'>
                                 <figure>
                                     <Image
                                         className='bg-transparent'
@@ -175,6 +176,62 @@ export default function Conference() {
                                         alt={`content-picture`}
                                     />
                                 </figure>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                {/* Agenda Section */}
+                <section className='bg-watusi'>
+                    <article className='min-h-screen py-16 space-y-8 layout'>
+                        <h2 className='text-center mb-14'>Agenda</h2>
+                        <div className='p-8 bg-black text-watusi md:p-16 md:x-16 md:py-20 rounded-xl'>
+                            <div className='flex flex-col-reverse mx-2 md:flex-row md:space-x-16 md:items-center'>
+                                <div className='w-full space-y-4 md:ml-4 md:w-2/3'>
+                                    <h3>Coaching Clinic Session</h3>
+                                    <p className='leading-6 md:leading-8'>
+                                        A coaching session delivered by a
+                                        speaker to foster each delegate’s
+                                        expertise and knowledge of the topic
+                                        that is discussed during the conference.
+                                    </p>
+                                </div>
+                                <div className='w-full mt-8 md:w-1/2'>
+                                    <p className='mb-4 text-6xl font-bold text-center uppercase md:text-8xl'>
+                                        Day 1
+                                    </p>
+                                </div>
+                            </div>
+                            <hr className='w-full h-2 mx-auto my-8 border-0 rounded bg-gradient-to-r from-spurple-500 to bg-spurple-600' />
+                            <div className='flex flex-col-reverse mx-2 md:flex-row md:space-x-16 md:items-center'>
+                                <div className='w-full mt-8 md:w-1/2'>
+                                    <p className='mb-4 text-6xl font-bold text-center uppercase md:text-8xl'>
+                                        Day 2
+                                    </p>
+                                </div>
+                                <div className='w-full space-y-4 md:w-2/3'>
+                                    <h3>Group Discussion Session</h3>
+                                    <p className='leading-6 md:leading-8 md:mr-8'>
+                                        A discussion session where delegates can
+                                        brainstorm ideas and build connections
+                                        to solve real life problems.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr className='w-full h-2 mx-auto my-8 border-0 rounded bg-gradient-to-r from-spurple-500 to bg-spurple-600' />
+                            <div className='flex flex-col-reverse mx-2 md:flex-row md:space-x-16 md:items-center'>
+                                <div className='w-full space-y-4 md:ml-4 md:w-2/3'>
+                                    <h3>Final Pitching Round</h3>
+                                    <p className='leading-6 md:leading-8'>
+                                        A final round for top selected delegates
+                                        to solve problems and pitch their ideas
+                                        in front of major industry leaders.
+                                    </p>
+                                </div>
+                                <div className='w-full mt-8 md:w-1/2'>
+                                    <p className='mb-4 text-6xl font-bold text-center uppercase md:text-8xl'>
+                                        Day 3
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </article>
