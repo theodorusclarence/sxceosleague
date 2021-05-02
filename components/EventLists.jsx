@@ -67,6 +67,19 @@ function EventCard({ event: { title, excerpt, route, id } }) {
                         </div>
                     </UnstyledLink>
                 ) : null}
+                {route === '/ibl-case-challenge' ? (
+                    <UnstyledLink
+                        href={route}
+                        className='block py-1 view-container'
+                    >
+                        <div className='inline-flex items-center space-x-2 font-bold text-gray-900 view'>
+                            <p>View More </p>
+                            <span className='inline'>
+                                <MdArrowForward />
+                            </span>
+                        </div>
+                    </UnstyledLink>
+                ) : null}
             </div>
             <style jsx>{`
                 /* 768 md: */
