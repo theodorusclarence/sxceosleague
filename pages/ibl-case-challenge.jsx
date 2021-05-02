@@ -7,11 +7,26 @@ import Footer from '@/components/Footer';
 import ScrollDownArrow from '@/components/ScrollDownArrow';
 import ButtonLink from '@/components/ButtonLink';
 import { rotate } from 'tailwindcss/defaultTheme';
+import PurpleLabel from '@/components/PurpleLabel';
+
+const title = 'IBL Case Challenge - StudentsxCEOs League';
+const description =
+    'A series of events ranging from challenges to an in-depth discussion session to warm you up before participating in our main events.';
+const url = 'https://sxceosleague.com/ibl-case-challenge';
 
 export default function ibl_case_challenge() {
     return (
         <>
-            <NextSeo />
+            <NextSeo
+                title={title}
+                description={description}
+                canonical={url}
+                openGraph={{
+                    url,
+                    title,
+                    description,
+                }}
+            />
             <Nav />
             <main className='overflow-x-hidden'>
                 <section
@@ -19,7 +34,7 @@ export default function ibl_case_challenge() {
                     style={{ background: 'rgba(238, 252, 242, 1)' }}
                 >
                     {/* ibl-cc-logo */}
-                    <figure className='absolute z-30 invisible w-32 transform translate-y-20 pointer-events-none translate-x-44 lg:visible right-12 md:top-52 md:right-72 md:w-48 lg:right-80'>
+                    <figure className='absolute z-20 invisible w-32 transform translate-y-20 pointer-events-none md:z-30 translate-x-44 lg:visible right-12 md:top-52 md:right-72 md:w-48 lg:right-80'>
                         <Image
                             priority
                             loading='eager'
@@ -31,7 +46,7 @@ export default function ibl_case_challenge() {
                         />
                     </figure>
                     {/*small rectangle */}
-                    <figure className='absolute bottom-0 z-20 invisible transform pointer-events-none lg:visible -translate-y-36 right-5 w-120'>
+                    <figure className='absolute bottom-0 right-0 z-10 w-64 transform translate-y-10 pointer-events-none lg:w-120 lg:z-20 lg:-translate-y-36 lg:right-5'>
                         <Image
                             src='/images/Rectangle-28.png'
                             width={360}
@@ -44,7 +59,7 @@ export default function ibl_case_challenge() {
                     {/* large rectangle */}
                     <figure
                         style={{ transform: 'translateY(42.9%)' }}
-                        className='absolute right-0 z-10 invisible transform pointer-events-none lg:visible translate-x-120 bottom-40 w-60 md:w-120 '
+                        className='absolute bottom-0 right-0 transform pointer-events-none lg:z-10 lg:translate-x-120 lg:bottom-40 w-60 lg:w-120 '
                     >
                         <Image
                             src='/images/Rectangle-29.png'
@@ -57,27 +72,23 @@ export default function ibl_case_challenge() {
                     </figure>
                     <article className='relative flex flex-col justify-center min-h-screen space-y-4 text-white layout'>
                         {/* Logo StudentsxCEOs League */}
-                        <div className='w-1/3 py-2 sm:w-1/4 md:w-1/5 lg:w-1/6 rounded-2xl gradient-purple'>
-                            <p className='px-3 text-xs md:mx-auto'>
+                        <div className='max-w-xl space-y-5'>
+                            <PurpleLabel>StudentsxCEOs League</PurpleLabel>
+
+                            <h1 className='text-4xl text-spurple-400 md:text-5xl'>
                                 StudentsxCEOs League
+                                <br />
+                                IBL Case Challenge
+                            </h1>
+                            <p className='leading-6 text-gray-900 md:leading-8 md:text-lg'>
+                                Case based competition that will encourage each
+                                participant to see themself as a leader, who is
+                                responsible for solving a business problem of a
+                                company in a creative and innovative way with a
+                                high level of realization and practice.
                             </p>
                         </div>
-                        <h1 className='text-4xl md:text-6xl text-spurple-400'>
-                            IBL Case Challenge
-                            <br />
-                            League
-                        </h1>
-                        <p className='max-w-xl leading-7 text-black md:text-lg'>
-                            The IBL Case Challenge is a case based competition
-                            that will encourage each participant to see themself
-                            as a leader, who is responsible for solving a
-                            business problem of a company in a creative and
-                            innovative way with a high level of realization and
-                            practice. Brace yourself to meet your peers with
-                            various perspectives and buckle up, as we immerse
-                            into the business world and work through its problem
-                            in digitalization.
-                        </p>
+
                         {/* <ButtonLink
                             className='self-start'
                             href='https://tiny.cc/RegistrationTnD'
@@ -95,15 +106,14 @@ export default function ibl_case_challenge() {
                         background:
                             'linear-gradient(90deg, #51FEE9 0%, #6CCAFF 100%)',
                     }}
-                    className='py-20'
                 >
-                    <article className='relative py-24 pt-36 layout'>
-                        <h2 className='mb-20 text-center text-white'>
+                    <article className='relative py-24 md:pt-36 layout'>
+                        <h2 className='mb-10 text-center text-white md:mb-20'>
                             Case Contributor
                         </h2>
-                        <div className='relative px-10 py-40 space-y-5 rounded-2xl bg-beige lg:mt-52'>
+                        <div className='relative px-10 py-20 space-x-3 sm:py-28 md:py-40 md:space-y-5 rounded-2xl bg-beige lg:mt-52'>
                             <div className='absolute top-0 left-0'>
-                                <figure className='overflow-hidden transform -translate-y-5 translate-x-11 md:-translate-y-10 lg:-translate-y-36 W-1/2 w-80 md:w-72 lg:w-96 xl:w-120 rounded-2xl'>
+                                <figure className='overflow-hidden transform -translate-y-5 translate-x-11 md:-translate-y-10 lg:-translate-y-36 W-1/2 w-72 md:w-72 lg:w-96 xl:w-120 rounded-2xl'>
                                     <Image
                                         src={'/images/events/img1.jpg'}
                                         alt='illustration'
@@ -117,7 +127,7 @@ export default function ibl_case_challenge() {
                                     @media (min-width: 320px) and (max-width: 370px) {
                                         div,
                                         figure {
-                                            width: 16rem;
+                                            width: 14rem;
                                         }
                                     }
 
@@ -129,29 +139,32 @@ export default function ibl_case_challenge() {
                                     }
                                 `}</style>
                             </div>
-                            <h2 className='px-5'>JP Morgan</h2>
-                            <div className='flex w-1/3 py-2 ml-5 sm:w-1/4 md:w-1/4 rounded-2xl gradient-purple'>
-                                <p className='mx-auto text-white text-md'>
-                                    Total Prize: xxxx
+                            <div className='space-y-5'>
+                                <h2 className='mt-24 mb-4 sm:mt-0'>
+                                    JP Morgan
+                                </h2>
+
+                                <PurpleLabel>Total Prize: xxxx</PurpleLabel>
+
+                                <p className='max-w-4xl'>
+                                    J.P. Morgan is a global leader in financial
+                                    services, offering solutions to the world's
+                                    most important corporations, governments and
+                                    institutions in more than 100 countries. As
+                                    announced in early 2018, JPMorgan Chase will
+                                    deploy $1.75 billion in philanthropic
+                                    capital around the world by 2023. JP Morgan
+                                    also leads volunteer service activities for
+                                    employees in local communities by utilizing
+                                    our many resources, including those that
+                                    stem from access to capital, economies of
+                                    scale, global reach and expertise.
                                 </p>
+
+                                <ButtonLink>
+                                    Register for IBL Case Challenge
+                                </ButtonLink>
                             </div>
-                            <p className='px-5'>
-                                J.P. Morgan is a global leader in financial
-                                services, offering solutions to the world's most
-                                important corporations, governments and
-                                institutions in more than 100 countries. As
-                                announced in early 2018, JPMorgan Chase will
-                                deploy $1.75 billion in philanthropic capital
-                                around the world by 2023. JP Morgan also leads
-                                volunteer service activities for employees in
-                                local communities by utilizing our many
-                                resources, including those that stem from access
-                                to capital, economies of scale, global reach and
-                                expertise.
-                            </p>
-                            <ButtonLink className='ml-5'>
-                                <p>Register for IBL Case Challenge</p>
-                            </ButtonLink>
                         </div>
                     </article>
                 </section>
