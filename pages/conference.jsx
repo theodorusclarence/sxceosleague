@@ -85,7 +85,7 @@ export default function Conference() {
                                     Workforce Employment Policy After the
                                     COVID-19 Pandemic
                                 </h3>
-                                <p className='leading-6 text-justify md:leading-8'>
+                                <p className='leading-6 md:leading-8'>
                                     Employment is one of the issues that is
                                     often been discussed during the pandemic. A
                                     lot of changes happened especially for the
@@ -117,7 +117,7 @@ export default function Conference() {
                                     Indonesia’s Readiness on Embracing
                                     Digitalization on the Industry 4.0 Era
                                 </h3>
-                                <p className='leading-6 text-justify md:leading-8'>
+                                <p className='leading-6 md:leading-8'>
                                     The era of disruption that we are facing
                                     demands various changes in the fabric of our
                                     society, one of which is digitization. This
@@ -146,7 +146,7 @@ export default function Conference() {
                                     The Implementation of Green Industrial
                                     Policy in Indonesia
                                 </h3>
-                                <p className='leading-6 text-justify md:leading-8'>
+                                <p className='leading-6 md:leading-8'>
                                     Climate change has been the main concern for
                                     every state as the destruction towards the
                                     environment happens time by time. Increased
@@ -202,7 +202,7 @@ export default function Conference() {
                                 </div>
                             </div>
                             <hr className='w-full h-2 mx-auto my-8 border-0 rounded bg-gradient-to-r from-spurple-500 to bg-spurple-600' />
-                            <div className='flex flex-col-reverse mx-2 md:flex-row md:space-x-16 md:items-center'>
+                            <div className='flex flex-col mx-2 md:flex-row md:space-x-16 md:items-center'>
                                 <div className='w-full mt-8 md:w-1/2'>
                                     <p className='mb-4 text-6xl font-bold text-center uppercase md:text-8xl'>
                                         Day 2
