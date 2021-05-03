@@ -76,8 +76,6 @@ export default function ibl_case_challenge() {
                             <PurpleLabel>StudentsxCEOs League</PurpleLabel>
 
                             <h1 className='text-4xl text-spurple-400 md:text-5xl'>
-                                StudentsxCEOs League
-                                <br />
                                 IBL Case Challenge
                             </h1>
                             <p className='leading-6 text-gray-900 md:leading-8 md:text-lg'>
