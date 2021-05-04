@@ -160,18 +160,35 @@ export default function Conference() {
                     className='bg-watusi'
                     style={{ background: 'rgba(234, 251, 240, 1)' }}
                 >
-                    <article className='min-h-screen py-16 space-y-8 layout'>
-                        <h2 className='text-center mb-14'>Total Prize</h2>
+                    <article className='py-16 space-y-8 h layout'>
                         <div
-                            className='p-8 shadow-lg text-watusi md:p-16 md:x-16 md:py-20 rounded-xl'
+                            className='p-12 shadow-blue rounded-3xl '
                             style={{ background: 'rgba(238, 252, 242, 1)' }}
                         >
-                            <div className='grid grid-cols-3 gap-x-8'>
-                                <figure>
+                            <h2 className='text-center'>Total Prize</h2>
+                            <div className='grid grid-cols-1 md:grid-cols-3 '>
+                                <figure className='border-2'>
                                     <Image
-                                        src='/prize-1.svg'
-                                        height={300}
-                                        width={300}
+                                        height={385}
+                                        width={209}
+                                        layout='responsive'
+                                        src='/images/prize-1.svg'
+                                    />
+                                </figure>
+                                <figure className=''>
+                                    <Image
+                                        height={385}
+                                        width={209}
+                                        layout='responsive'
+                                        src='/images/prize-1.svg'
+                                    />
+                                </figure>
+                                <figure className=''>
+                                    <Image
+                                        height={385}
+                                        width={209}
+                                        layout='responsive'
+                                        src='/images/prize-1.svg'
                                     />
                                 </figure>
                             </div>
