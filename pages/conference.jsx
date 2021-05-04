@@ -1,11 +1,13 @@
-import Footer from '@/components/Footer';
+import Image from 'next/image';
+import { NextSeo } from 'next-seo';
+
 import Nav from '@/components/Nav';
 import PurpleLabel from '@/components/PurpleLabel';
 import ScrollDownArrow from '@/components/ScrollDownArrow';
 import TimelineList from '@/components/TimelineList';
+import Footer from '@/components/Footer';
+
 import { Timeline } from '@/data/conference';
-import { NextSeo } from 'next-seo';
-import Image from 'next/image';
 
 const title = 'Conference - StudentsxCEOs League';
 const description =
