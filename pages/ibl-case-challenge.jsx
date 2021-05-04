@@ -3,8 +3,10 @@ import Footer from '@/components/Footer';
 import Nav from '@/components/Nav';
 import PurpleLabel from '@/components/PurpleLabel';
 import ScrollDownArrow from '@/components/ScrollDownArrow';
+import TimelineList from '@/components/TimelineList';
 import { NextSeo } from 'next-seo';
 import Image from 'next/image';
+import { iblCaseTimeline } from '@/data/ibl-case';
 
 const title = 'IBL Case Challenge - StudentsxCEOs League';
 const description =
@@ -32,11 +34,11 @@ export default function Conference() {
                     style={{ background: 'rgba(238, 252, 242, 1)' }}
                 >
                     <figure className='select-none pointer-events-none absolute w-120 left-1/4 -bottom-40 md:left-1/2 md:w-[1200px] md:bottom-auto md:top-1/2 transform md:-translate-y-1/2 md:pl-10 md:pt-80'>
-                        {/* Triangle Illustration */}
+                        {/* Square Illustration */}
                         <Image
-                            src='/images/circle-group.png'
-                            width={1000}
-                            height={850}
+                            src='/images/square-group.png'
+                            width={2009}
+                            height={2079}
                             priority
                             loading='eager'
                             layout='responsive'
@@ -45,12 +47,12 @@ export default function Conference() {
                     </figure>
                     <article className='relative flex flex-col items-start justify-center min-h-screen text-black md:items-center md:justify-between md:flex-row-reverse layout'>
                         {/* Add spacing when stacking vertically */}
-                        <figure className='w-16 mb-8 md:w-64 md:mb-0'>
+                        <figure className='w-8 mb-8 md:w-48 md:mb-0'>
                             {/* Logo */}
                             <Image
-                                src='/images/ibl-cc-logo.png'
-                                width={216}
-                                height={485}
+                                src='/images/logo/ibl-cc-logo.png'
+                                width={432}
+                                height={970}
                                 priority
                                 loading='eager'
                                 layout='responsive'
@@ -83,7 +85,7 @@ export default function Conference() {
                             'linear-gradient(90deg, #51FEE9 0%, #6CCAFF 100%)',
                     }}
                 >
-                    <article className='relative py-24 md:pt-36 layout'>
+                    <article className='relative py-24 layout'>
                         <h2 className='mb-10 text-center text-white'>
                             Case Contributor
                         </h2>
@@ -98,7 +100,7 @@ export default function Conference() {
                             Soon to be Announced
                         </h1>
 
-                        {/* Coming Soon */}
+                        {/* //TODO Uncomment when fixed JP Morgan Coming Soon */}
                         {/* <div className='relative px-10 py-20 space-x-3 sm:py-28 md:py-40 md:space-y-5 rounded-2xl bg-beige lg:mt-52'>
                             <div className='absolute top-0 left-0'>
                                 <figure className='overflow-hidden transform -translate-y-5 translate-x-11 md:-translate-y-10 lg:-translate-y-36 W-1/2 w-72 md:w-72 lg:w-96 xl:w-120 rounded-2xl'>
@@ -156,42 +158,58 @@ export default function Conference() {
                     </article>
                 </section>
                 {/* prize section */}
-                <section
-                    className='bg-watusi'
-                    style={{ background: 'rgba(234, 251, 240, 1)' }}
-                >
-                    <article className='py-16 space-y-8 h layout'>
+                <section style={{ background: 'rgba(234, 251, 240, 1)' }}>
+                    <article className='py-16 space-y-8 layout'>
                         <div
                             className='p-12 shadow-blue rounded-3xl '
                             style={{ background: 'rgba(238, 252, 242, 1)' }}
                         >
                             <h2 className='text-center'>Total Prize</h2>
-                            <div className='grid grid-cols-1 md:grid-cols-3 '>
-                                <figure className='border-2'>
+                            <div className='flex flex-col items-center mt-8 space-y-4 md:flex-row md:space-y-0 md:items-center md:space-x-4'>
+                                <figure className='w-56 md:w-96 ml-9 md:ml-0'>
                                     <Image
-                                        height={385}
-                                        width={209}
+                                        width={770}
+                                        height={417}
                                         layout='responsive'
-                                        src='/images/prize-1.svg'
+                                        src='/images/ibl-case/prize-1.png'
                                     />
                                 </figure>
-                                <figure className=''>
+                                <figure className='w-56 md:w-96 ml-9 md:ml-0'>
                                     <Image
-                                        height={385}
-                                        width={209}
+                                        width={770}
+                                        height={417}
                                         layout='responsive'
-                                        src='/images/prize-1.svg'
+                                        src='/images/ibl-case/prize-2.png'
                                     />
                                 </figure>
-                                <figure className=''>
+                                <figure className='w-56 md:w-96 ml-9 md:ml-0'>
                                     <Image
-                                        height={385}
-                                        width={209}
+                                        width={770}
+                                        height={417}
                                         layout='responsive'
-                                        src='/images/prize-1.svg'
+                                        src='/images/ibl-case/prize-3.png'
                                     />
                                 </figure>
                             </div>
+                            <p className='mt-4 text-sm text-red-500'>
+                                *it may increase due to more sponsor join us
+                            </p>
+                        </div>
+                    </article>
+                    
+                    {/* Timeline Section */}
+                    <article className='py-24 layout'>
+                        <h2 className='mb-5 text-center text-tundora'>
+                            Timeline
+                        </h2>
+                        <div className='pr-4 md:pr-0'>
+                            {iblCaseTimeline.map((val) => (
+                                <TimelineList
+                                    key={val.eventDate}
+                                    eventDate={val.eventDate}
+                                    eventName={val.eventName}
+                                />
+                            ))}
                         </div>
                     </article>
                 </section>
