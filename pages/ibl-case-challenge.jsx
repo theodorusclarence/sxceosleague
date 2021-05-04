@@ -194,7 +194,7 @@ export default function Conference() {
                                 </figure>
                             </div>
                             <p className='mt-4 text-sm text-red-500'>
-                                *it may increase due to more sponsor join us
+                                *it may increase due to more sponsor joining us
                             </p>
                         </div>
                     </article>
