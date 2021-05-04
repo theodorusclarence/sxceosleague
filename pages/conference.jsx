@@ -1,6 +1,9 @@
+import Footer from '@/components/Footer';
 import Nav from '@/components/Nav';
 import PurpleLabel from '@/components/PurpleLabel';
 import ScrollDownArrow from '@/components/ScrollDownArrow';
+import TimelineList from '@/components/TimelineList';
+import { Timeline } from '@/data/conference';
 import { NextSeo } from 'next-seo';
 import Image from 'next/image';
 
@@ -58,13 +61,9 @@ export default function Conference() {
                                 Conference
                             </h1>
                             <p className='leading-6 text-gray-900 md:leading-8'>
-                                An adapted version of contributing and sharing
-                                your potential idea in policy-making
-                                recommendation with students all over Indonesia.
-                                A deeper analysis packed in a fruitful
-                                discussion with experts will be facilitated in
-                                this conference and participants will get a
-                                bigger chance to enhance their knowledge
+                                A deep analysis packed in a fruitful discussion
+                                with experts in policy-making recommendation
+                                with students all over Indonesia
                             </p>
                             {/* <ButtonLink href='/' className='inline-block'>
                                 Button
@@ -236,7 +235,22 @@ export default function Conference() {
                         </div>
                     </article>
                 </section>
+                {/* Timeline Section */}
+                <section className='bg-watusi'>
+                    <article className='min-h-screen py-16 layout'>
+                        <h2 className='mb-5 text-center text-tundora'>
+                            Timeline
+                        </h2>
+                        {Timeline.map((val) => (
+                            <TimelineList
+                                eventDate={val.eventDate}
+                                eventName={val.eventName}
+                            />
+                        ))}
+                    </article>
+                </section>
             </main>
+            <Footer />
         </div>
     );
 }
