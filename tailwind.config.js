@@ -31,6 +31,7 @@ module.exports = {
                 watusi: '#FEE2D2',
                 geraldine: '#FF7B8A',
                 goldentainoi: '#FFC867',
+                tundora: '#4D4D4D',
             },
             spacing: {
                 120: '30rem',
