@@ -139,7 +139,7 @@ export default function Conference() {
                                 </figure>
                             </div>
                         </div>
-                        <div className='flex flex-col p-8 md:p-16 md:x-16 md:py-20 rounded-xl bg-beige lg:flex-row md:space-x-8 md:items-center pre-event'>
+                        <div className='flex flex-col p-8 md:px-16 md:py-20 rounded-xl bg-beige lg:flex-row md:space-x-8 md:items-center pre-event'>
                             <div className='w-full space-y-4'>
                                 <h3>
                                     The Implementation of Green Industrial
@@ -183,7 +183,7 @@ export default function Conference() {
                 <section className='bg-watusi'>
                     <article className='min-h-screen py-16 space-y-8 layout'>
                         <h2 className='text-center mb-14'>Agenda</h2>
-                        <div className='p-8 bg-black text-watusi md:p-16 md:x-16 md:py-20 rounded-xl'>
+                        <div className='p-8 bg-gray-900 text-watusi md:p-16 md:x-16 md:py-20 rounded-xl'>
                             <div className='flex flex-col-reverse mx-2 md:flex-row md:space-x-16 md:items-center'>
                                 <div className='w-full space-y-4 md:ml-4 md:w-2/3'>
                                     <h3>Coaching Clinic Session</h3>
@@ -237,7 +237,7 @@ export default function Conference() {
                 </section>
                 {/* Timeline Section */}
                 <section className='bg-watusi'>
-                    <article className='min-h-screen py-16 layout'>
+                    <article className='py-16 layout'>
                         <h2 className='mb-5 text-center text-tundora'>
                             Timeline
                         </h2>
