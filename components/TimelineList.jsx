@@ -1,17 +1,17 @@
 export default function TimelineList({ eventDate, eventName }) {
     return (
-        <div className='max-w-4xl px-4 mx-auto'>
-            <div className='grid h-32 grid-flow-row grid-cols-3 gap-4'>
-                <div className='flex flex-col justify-center'>
-                    <div className='p-1 rounded-tl-full rounded-br-full bg-gradient-to-r from-geraldine to-goldentainoi'>
+        <div className='max-w-3xl mx-auto mt-4'>
+            <div className='grid grid-flow-row grid-cols-2 md:grid-cols-[2fr,1fr,2fr] md:gap-0 gap-4'>
+                <div className='flex flex-col items-end justify-center'>
+                    <div className='p-1 min-w-[7rem] md:min-w-[12rem] rounded-tl-full rounded-br-full bg-gradient-to-r from-geraldine to-goldentainoi'>
                         <div className='text-white rounded-tl-full rounded-br-full bg-gradient-to-r from-geraldine to-goldentainoi md:px-9 lg:py-3'>
-                            <p className='my-0 text-center md:text-xl lg:mx-0 lg:text-2xl'>
+                            <p className='my-0 font-bold text-center md:text-xl lg:mx-0'>
                                 {eventDate}
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col justify-center px-4 py-4 mt-4 sm:mt-0'>
+                <div className='flex-col justify-center hidden py-4 mt-4 md:px-4 sm:mt-0 md:flex'>
                     <img
                         src='/images/green-circle.svg'
                         alt='green-circle'
@@ -19,8 +19,8 @@ export default function TimelineList({ eventDate, eventName }) {
                     />
                 </div>
 
-                <div className='flex flex-col justify-center px-4 py-4 mt-4 sm:mt-0'>
-                    <p className='md:text-2xl text-tundora'>{eventName}</p>
+                <div className='flex flex-col justify-center font-bold md:px-4 md:py-4 sm:mt-0'>
+                    <p className='md:text-xl text-tundora'>{eventName}</p>
                 </div>
             </div>
         </div>
