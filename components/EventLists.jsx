@@ -53,33 +53,17 @@ function EventCard({ event: { title, excerpt, route, id } }) {
                 <p className='max-w-lg mb-4 leading-7 text-gray-800'>
                     {excerpt}
                 </p>
-                {/* //? Only showing for pre-event for now. */}
-                {route === '/pre-event' ? (
-                    <UnstyledLink
-                        href={route}
-                        className='block py-1 view-container'
-                    >
-                        <div className='inline-flex items-center space-x-2 font-bold text-gray-900 view'>
-                            <p>View More </p>
-                            <span className='inline'>
-                                <MdArrowForward />
-                            </span>
-                        </div>
-                    </UnstyledLink>
-                ) : null}
-                {route === '/ibl-case-challenge' ? (
-                    <UnstyledLink
-                        href={route}
-                        className='block py-1 view-container'
-                    >
-                        <div className='inline-flex items-center space-x-2 font-bold text-gray-900 view'>
-                            <p>View More </p>
-                            <span className='inline'>
-                                <MdArrowForward />
-                            </span>
-                        </div>
-                    </UnstyledLink>
-                ) : null}
+                <UnstyledLink
+                    href={route}
+                    className='block py-1 view-container'
+                >
+                    <div className='inline-flex items-center space-x-2 font-bold text-gray-900 view'>
+                        <p>View More </p>
+                        <span className='inline'>
+                            <MdArrowForward />
+                        </span>
+                    </div>
+                </UnstyledLink>
             </div>
             <style jsx>{`
                 /* 768 md: */
