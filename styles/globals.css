@@ -175,6 +175,13 @@
     border-image-slice: 1;
     border-width: 5px;
   }
-  .border-gradient-purple {
+  
+.border-gradient-purple {
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
-  }
+}
+
+.shadow-blue {
+    box-shadow: 0px 4px 126px 6px rgba(103, 201, 166, 0.35);
+}
+
+
