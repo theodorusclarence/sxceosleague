@@ -7,7 +7,7 @@ import ScrollDownArrow from '@/components/ScrollDownArrow';
 import TimelineList from '@/components/TimelineList';
 import Footer from '@/components/Footer';
 
-import { Timeline } from '@/data/conference';
+import { conferenceTimeline } from '@/data/conference';
 
 const title = 'Conference - StudentsxCEOs League';
 const description =
@@ -243,8 +243,9 @@ export default function Conference() {
                         <h2 className='mb-5 text-center text-tundora'>
                             Timeline
                         </h2>
-                        {Timeline.map((val) => (
+                        {conferenceTimeline.map((val) => (
                             <TimelineList
+                                key={val.eventDate}
                                 eventDate={val.eventDate}
                                 eventName={val.eventName}
                             />
