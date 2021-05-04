@@ -12,11 +12,8 @@ export const tabData = [
         time: '5 - 13 May',
         desc:
             'A mini case challenge to challenge your complex problem solving skills and to warm you up before the IBL Case Competition. Winners of this challenge will get some interesting prizes!',
-        buttonText: 'Coming Soon!',
-        href: null,
-        // TODO MINICHALLENGE replace with below
-        // buttonText: 'Submit for the challenge',
-        // href: '/r/mini-challenge',
+        buttonText: 'Submit for the challenge',
+        href: '/r/mini-challenge',
     },
     {
         name: 'Instagram Live Session',
@@ -36,10 +33,12 @@ export const tndCarousel = [
 
 // TODO MINICHALLENGE populate post
 export const miniChallengeCarousel = [
-    // '/images/pre-event/test-post.png',
-    // '/images/pre-event/test-post.png',
-    // '/images/pre-event/test-post.png',
-    // '/images/pre-event/test-post.png',
+    '/images/pre-event/mini-challenge-1.jpg',
+    '/images/pre-event/mini-challenge-2.jpg',
+    '/images/pre-event/mini-challenge-3.jpg',
+    '/images/pre-event/mini-challenge-4.jpg',
+    '/images/pre-event/mini-challenge-5.jpg',
+    '/images/pre-event/mini-challenge-6.jpg',
 ];
 
 export const igLiveCarousel = [

@@ -28,7 +28,7 @@ const description =
 const url = 'https://sxceosleague.com/pre-event';
 
 export default function PreEvent() {
-    const [selected, setSelected] = useState('3');
+    const [selected, setSelected] = useState('2');
     const handleTab = (e) => {
         setSelected(e.target.value);
     };
@@ -169,8 +169,7 @@ export default function PreEvent() {
                                     {tabData[selected - 1].buttonText}
                                 </ButtonLink>
                                 {/* Add custom button for mini challenge */}
-                                {/* //TODO MINICHALLENGE uncomment below*/}
-                                {/* {selected === '2' ? (
+                                {selected === '2' ? (
                                     <ButtonLink
                                         href='https://drive.google.com/drive/folders/1ZGkGUhvD8ZJYICxTS34mnw15G4VmfLln?usp=sharing'
                                         className='mt-4 md:ml-4 !text-gray-700'
@@ -178,7 +177,7 @@ export default function PreEvent() {
                                     >
                                         Download Template
                                     </ButtonLink>
-                                ) : null} */}
+                                ) : null}
                             </div>
                             {/* If Talks and Discussion, then show image */}
                             {selected === '1' ? (
@@ -187,14 +186,13 @@ export default function PreEvent() {
                                 </div>
                             ) : null}
                             {/* If Mini Challenge, then show carousel */}
-                            {/* //TODO MINICHALLENGE uncomment below*/}
-                            {/* {selected === '2' ? (
+                            {selected === '2' ? (
                                 <div className='w-full mt-8 md:w-1/3'>
                                     <SquareCarousel
                                         images={miniChallengeCarousel}
                                     />
                                 </div>
-                            ) : null} */}
+                            ) : null}
                             {/* If IG Live, then show carousel */}
                             {selected === '3' ? (
                                 <div className='w-full mt-8 md:w-2/5'>
