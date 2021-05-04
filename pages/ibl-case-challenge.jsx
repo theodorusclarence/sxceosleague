@@ -1,11 +1,13 @@
-import ButtonLink from '@/components/ButtonLink';
-import Footer from '@/components/Footer';
-import Nav from '@/components/Nav';
-import PurpleLabel from '@/components/PurpleLabel';
-import ScrollDownArrow from '@/components/ScrollDownArrow';
-import TimelineList from '@/components/TimelineList';
-import { NextSeo } from 'next-seo';
 import Image from 'next/image';
+import { NextSeo } from 'next-seo';
+
+import Nav from '@/components/Nav';
+import ScrollDownArrow from '@/components/ScrollDownArrow';
+import ButtonLink from '@/components/ButtonLink';
+import PurpleLabel from '@/components/PurpleLabel';
+import TimelineList from '@/components/TimelineList';
+import Footer from '@/components/Footer';
+
 import { iblCaseTimeline } from '@/data/ibl-case';
 
 const title = 'IBL Case Challenge - StudentsxCEOs League';
@@ -196,7 +198,7 @@ export default function Conference() {
                             </p>
                         </div>
                     </article>
-                    
+
                     {/* Timeline Section */}
                     <article className='py-24 layout'>
                         <h2 className='mb-5 text-center text-tundora'>
