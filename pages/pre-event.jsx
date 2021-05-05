@@ -171,7 +171,7 @@ export default function PreEvent() {
                                 {/* Add custom button for mini challenge */}
                                 {selected === '2' ? (
                                     <ButtonLink
-                                        href='https://drive.google.com/drive/folders/1ZGkGUhvD8ZJYICxTS34mnw15G4VmfLln?usp=sharing'
+                                        href='https://drive.google.com/file/d/126ZxhB8VCnR-L7uSG-DY4EZeXoKYQTge/view?usp=sharing'
                                         className='mt-4 md:ml-4 !text-gray-700'
                                         outline={true}
                                     >
