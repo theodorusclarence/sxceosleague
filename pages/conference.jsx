@@ -103,11 +103,11 @@ export default function Conference() {
                             <div className='w-full mt-8 lg:w-1/2'>
                                 <figure>
                                     <Image
-                                        className='bg-transparent'
-                                        src={'/images/conference/dummy.png'}
-                                        width={1400}
-                                        height={1000}
-                                        alt={`content-picture`}
+                                        className='bg-gray-500 rounded-xl'
+                                        src={'/images/conference/chamber-1.jpg'}
+                                        width={800}
+                                        height={533}
+                                        alt='Chamber 1'
                                     />
                                 </figure>
                             </div>
@@ -132,11 +132,11 @@ export default function Conference() {
                             <div className='w-full mt-8 lg:w-1/2'>
                                 <figure>
                                     <Image
-                                        className='bg-transparent'
-                                        src={'/images/conference/dummy.png'}
-                                        width={1400}
-                                        height={1000}
-                                        alt={`content-picture`}
+                                        className='bg-gray-500 rounded-xl'
+                                        src={'/images/conference/chamber-2.jpg'}
+                                        width={800}
+                                        height={533}
+                                        alt='Chamber 2'
                                     />
                                 </figure>
                             </div>
@@ -170,11 +170,11 @@ export default function Conference() {
                             <div className='w-full mt-8 lg:w-1/2'>
                                 <figure>
                                     <Image
-                                        className='bg-transparent'
-                                        src={'/images/conference/dummy.png'}
-                                        width={1400}
-                                        height={1000}
-                                        alt={`content-picture`}
+                                        className='bg-gray-500 rounded-xl'
+                                        src={'/images/conference/chamber-3.jpg'}
+                                        width={800}
+                                        height={533}
+                                        alt='Chamber 3'
                                     />
                                 </figure>
                             </div>
