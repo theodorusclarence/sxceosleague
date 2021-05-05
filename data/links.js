@@ -1,7 +1,7 @@
 export const links = [
     {
-        label: 'Submit for Mini Case Challenge',
-        url: '/r/mini-challenge',
+        label: 'Mini Case Challenge Template & Submission',
+        url: '/pre-event',
     },
     {
         label: 'Tiktok',
