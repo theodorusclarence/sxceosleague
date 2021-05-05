@@ -1,6 +1,10 @@
+import { useState } from 'react';
 export default function miniChallenge() {
+    const [loading, setLoading] = useState(true);
+
     return (
-        <div>
+        <div className='flex items-center justify-center min-h-screen bg-beige'>
+            {loading ? <img src='/images/loader.svg' alt='Loading' /> : null}
             <iframe
                 id='typeform-full'
                 title='Register Mini Challenge'
@@ -9,6 +13,7 @@ export default function miniChallenge() {
                 frameBorder='0'
                 allow='camera; microphone; autoplay; encrypted-media;'
                 src='https://form.typeform.com/to/IVuVBoDg?typeform-medium=embed-snippet'
+                onLoad={() => setLoading(false)}
             ></iframe>
 
             <script
