@@ -1,10 +1,10 @@
 export const conferenceTimeline = [
     {
-        eventDate: '28 Mei',
+        eventDate: '28 May',
         eventName: 'Open Registration',
     },
     {
-        eventDate: '2 Juli',
+        eventDate: '2 July',
         eventName: 'Case Release',
     },
     {
