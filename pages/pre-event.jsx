@@ -187,7 +187,7 @@ export default function PreEvent() {
                             ) : null}
                             {/* If Mini Challenge, then show carousel */}
                             {selected === '2' ? (
-                                <div className='w-full mt-8 md:w-1/3'>
+                                <div className='w-full mt-8 md:w-2/5'>
                                     <SquareCarousel
                                         images={miniChallengeCarousel}
                                     />

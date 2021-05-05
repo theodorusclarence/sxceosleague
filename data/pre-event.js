@@ -39,6 +39,7 @@ export const miniChallengeCarousel = [
     '/images/pre-event/mini-challenge-4.jpg',
     '/images/pre-event/mini-challenge-5.jpg',
     '/images/pre-event/mini-challenge-6.jpg',
+    '/images/pre-event/mini-challenge-7.jpg',
 ];
 
 export const igLiveCarousel = [
