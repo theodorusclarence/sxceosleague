@@ -27,6 +27,7 @@ module.exports = {
                     700: '#FDA750',
                 },
                 sred: { 500: '#f44e61', 600: '#FA8A97', 700: '#EA4C6D' },
+                sblue: { 400: '#51FEE9', 500: '#6CCAFF' },
                 beige: '#FCF5EE',
                 watusi: '#FEE2D2',
                 geraldine: '#FF7B8A',

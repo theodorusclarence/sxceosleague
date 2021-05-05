@@ -86,8 +86,8 @@ function EventImage({ id }) {
             id === 1
                 ? 'from-sorange-600 to-sorange-500'
                 : id === 2
-                ? 'from-spurple-500 to-spurple-600'
-                : 'from-sred-500 to-sred-600 '
+                ? 'from-sblue-400 to-sblue-500'
+                : 'from-geraldine to-goldentainoi'
         } 
         rounded-2xl`}
         >
