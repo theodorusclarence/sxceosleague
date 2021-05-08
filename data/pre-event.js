@@ -20,8 +20,8 @@ export const tabData = [
         time: '7 May & 18 June',
         desc:
             'A discussion session between us and interesting speakers through the Instagram Live feature. Get ready to hear the other side of every story!',
-        buttonText: 'Check out our instagram!',
-        href: 'https://instagram.com/studentsxceosleague?igshid=zpjn1z16yw1g',
+        buttonText: 'Check out the IGTV recording!',
+        href: 'https://www.instagram.com/tv/COkwV3in48E/?igshid=t95ytlcckb40',
     },
 ];
 
