@@ -140,8 +140,7 @@
 }
 
 .gradient-purple {
-    background: linear-gradient(90deg, #9C1AF6 0%, #E84B71 100%);
-
+    background: linear-gradient(90deg, #9c1af6 0%, #e84b71 100%);
 }
 
 .slick-prev::before,
@@ -155,6 +154,11 @@
 }
 .slick-next {
     right: -15px;
+}
+
+.slick-arrow.slick-next.slick-disabled svg,
+.slick-arrow.slick-prev.slick-disabled svg {
+    @apply text-gray-400 cursor-auto;
 }
 
 /* For large carousel */
@@ -174,8 +178,8 @@
     border: 10px solid;
     border-image-slice: 1;
     border-width: 5px;
-  }
-  
+}
+
 .border-gradient-purple {
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 }
@@ -183,5 +187,3 @@
 .shadow-blue {
     box-shadow: 0px 4px 126px 6px rgba(103, 201, 166, 0.35);
 }
-
-
