@@ -9,6 +9,7 @@ import TimelineList from '@/components/TimelineList';
 import Footer from '@/components/Footer';
 
 import { iblCaseTimeline } from '@/data/ibl-case';
+import CloudinaryImg from '@/components/CloudinaryImg';
 
 const title = 'IBL Case Challenge - StudentsxCEOs League';
 const description =
@@ -37,13 +38,11 @@ export default function Conference() {
                 >
                     <figure className='select-none pointer-events-none absolute w-120 left-1/4 -bottom-40 md:left-1/2 md:w-[1200px] md:bottom-auto md:top-1/2 transform md:-translate-y-1/2 md:pl-10 md:pt-80'>
                         {/* Square Illustration */}
-                        <Image
-                            src='/images/square-group.png'
+                        <CloudinaryImg
+                            src='images/square-group_e2qor0.png'
+                            effect='blur:1000'
                             width={2009}
                             height={2079}
-                            priority
-                            loading='eager'
-                            layout='responsive'
                             alt='rectangle Illustration'
                         />
                     </figure>
@@ -51,14 +50,11 @@ export default function Conference() {
                         {/* Add spacing when stacking vertically */}
                         <figure className='w-8 mb-8 md:w-48 md:mb-0'>
                             {/* Logo */}
-                            <Image
-                                src='/images/logo/ibl-cc-logo.png'
+                            <CloudinaryImg
+                                src='images/logo/ibl-cc-logo_c4wtmk.png'
                                 width={432}
                                 height={970}
-                                priority
-                                loading='eager'
-                                layout='responsive'
-                                alt='Logo-Conference'
+                                alt='Logo IBL'
                             />
                         </figure>
                         <div className='max-w-xl space-y-4'>

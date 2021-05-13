@@ -6,6 +6,7 @@ import PurpleLabel from '@/components/PurpleLabel';
 import ScrollDownArrow from '@/components/ScrollDownArrow';
 import TimelineList from '@/components/TimelineList';
 import Footer from '@/components/Footer';
+import CloudinaryImg from '@/components/CloudinaryImg';
 
 import { conferenceTimeline } from '@/data/conference';
 
@@ -33,13 +34,11 @@ export default function Conference() {
                 <section className='relative bg-watusi'>
                     <figure className='select-none pointer-events-none absolute w-[700px] left-1/4 -bottom-40 md:left-1/2 md:w-[1200px] md:bottom-auto md:top-1/2 transform md:-translate-y-1/2 md:pl-10 md:pt-80'>
                         {/* Triangle Illustration */}
-                        <Image
-                            src='/images/conference/bg-polygon-2.png'
+                        <CloudinaryImg
+                            src='images/conference/bg-polygon-2_lzflrw.png'
                             width={1400}
                             height={1400}
-                            priority
-                            loading='eager'
-                            layout='responsive'
+                            effect='blur:1000'
                             alt='Polygon Illustration'
                         />
                     </figure>
@@ -47,13 +46,10 @@ export default function Conference() {
                         {/* Add spacing when stacking vertically */}
                         <figure className='w-20 mb-8 md:w-72 md:mb-0'>
                             {/* Logo */}
-                            <Image
-                                src='/images/logo/conference.png'
+                            <CloudinaryImg
+                                src='images/logo/conference_xlk6uv.png'
                                 width={396}
                                 height={403}
-                                priority
-                                loading='eager'
-                                layout='responsive'
                                 alt='Logo-Conference'
                             />
                         </figure>

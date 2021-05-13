@@ -57,6 +57,7 @@ export default function PreEvent() {
                             width={1200}
                             height={1200}
                             alt='Circle Illustration'
+                            effect='blur:1000'
                         />
                     </figure>
                     <article className='relative flex flex-col items-start justify-center min-h-screen text-black md:items-center md:justify-between md:flex-row-reverse layout'>
