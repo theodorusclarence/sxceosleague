@@ -1,10 +1,11 @@
 import { NextSeo } from 'next-seo';
-import Image from 'next/image';
+
+import { links } from '@/data/links';
 
 import Nav from '@/components/Nav';
-import { links } from '@/data/links';
 import ButtonLink from '@/components/ButtonLink';
 import SquareLink from '@/components/SquareLink';
+import CloudinaryImg from '@/components/CloudinaryImg';
 
 const title = 'Links StudentsxCEOs League';
 const description =
@@ -30,14 +31,11 @@ export default function link() {
                     <main className='bg-gradient-to-br from-spurple-500 to-spurple-600'>
                         <div className='relative z-10 flex items-center justify-center h-full layout-left'>
                             <article className='z-10 flex flex-col items-center mx-auto mt-4 md:transform md:translate-x-16 lg:translate-x-28'>
-                                <figure className='w-12 mb-5 md:w-20'>
-                                    <Image
-                                        src='/images/logo/logo.png'
+                                <figure className='w-12 mb-5 md:w-[77px]'>
+                                    <CloudinaryImg
+                                        src='images/logo/logo_hkanxt.png'
                                         width={77}
                                         height={113}
-                                        priority
-                                        loading='eager'
-                                        layout='responsive'
                                         alt='Logo'
                                     />
                                 </figure>
@@ -57,45 +55,37 @@ export default function link() {
                             </article>
                             {/* Floating orange triangle illustration */}
                             <figure className='absolute select-none -bottom-12 left-8 w-44 md:w-72 md:left-auto md:-right-32 animate-float'>
-                                <Image
-                                    priority
+                                <CloudinaryImg
+                                    src='images/blur-triangle_sjw1xv.png'
                                     width={997}
                                     height={1000}
-                                    layout='responsive'
-                                    src='/images/blur-triangle.png'
                                     alt='illustration'
                                 />
                             </figure>
                             {/* Mobile Only: Floating green triangle illustration */}
                             <figure className='absolute right-0 select-none bottom-12 md:hidden w-44 animate-float float-delay-2'>
-                                <Image
-                                    priority
+                                <CloudinaryImg
+                                    src='images/blur-triangle-blue_b3zpkh.png'
                                     width={261}
                                     height={366}
-                                    layout='responsive'
-                                    src='/images/blur-triangle-blue.png'
                                     alt='illustration'
                                 />
                             </figure>
                             {/* Desktop Only: Orange long illustration */}
                             <figure className='absolute top-0 hidden select-none md:block md:w-32 left-48'>
-                                <Image
-                                    priority
-                                    width={306}
-                                    height={1128}
-                                    layout='responsive'
-                                    src='/images/long-illustration-2.png'
+                                <CloudinaryImg
+                                    src='images/long-illustration-2_jyu4aw.png'
+                                    width={128}
+                                    height={509}
                                     alt='illustration'
                                 />
                             </figure>
                             {/* Floating blue circle illustration */}
                             <figure className='absolute z-0 select-none -left-12 w-60 float-delay top-1/4 md:top-auto md:bottom-28 md:left-4 md:w-96 animate-float'>
-                                <Image
-                                    priority
+                                <CloudinaryImg
+                                    src='images/blur-circle_q4fb7r.png'
                                     width={1026}
                                     height={1026}
-                                    layout='responsive'
-                                    src='/images/blur-circle.png'
                                     alt='illustration'
                                 />
                             </figure>
@@ -125,12 +115,10 @@ export default function link() {
                         <div className='relative flex flex-col items-center justify-end h-full layout-right'>
                             {/* Purple long illustration */}
                             <figure className='w-8 select-none md:w-28'>
-                                <Image
-                                    priority
+                                <CloudinaryImg
+                                    src='images/long-illustration_o7arvw.png'
                                     width={460}
                                     height={1132}
-                                    layout='responsive'
-                                    src='/images/long-illustration.png'
                                     alt='illustration'
                                 />
                             </figure>
