@@ -8,6 +8,7 @@ export default function CloudinaryImg({
     alt = 'Project Image',
     title,
     className,
+    effect = 'grayscale',
 }) {
     const urlBlurred = buildUrl(src, {
         cloud: {
@@ -15,7 +16,7 @@ export default function CloudinaryImg({
         },
         transformations: {
             effect: {
-                name: 'grayscale',
+                name: effect,
             },
             quality: 1,
         },
@@ -50,7 +51,7 @@ export default function CloudinaryImg({
                     height={height}
                     src={url}
                     alt={alt}
-                    title={title || alt}
+                    title={title}
                 />
             </div>
         </div>
