@@ -28,7 +28,7 @@ const description =
 const url = 'https://sxceosleague.com/pre-event';
 
 export default function PreEvent() {
-    const [selected, setSelected] = useState('2');
+    const [selected, setSelected] = useState('1');
     const handleTab = (e) => {
         setSelected(e.target.value);
     };
