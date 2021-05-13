@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import CloudinaryImg from './CloudinaryImg';
 import UnstyledLink from './UnstyledLink';
 
 export default function Nav() {
@@ -7,11 +7,11 @@ export default function Nav() {
             <div className='flex items-center justify-between h-16 py-2 text-black layout'>
                 <UnstyledLink href='/'>
                     <figure className='w-28 md:w-40'>
-                        <Image
-                            src='/images/logo/nav-logo.png'
+                        <CloudinaryImg
+                            src='images/logo/nav-logo_aoef43.png'
                             width={161}
                             height={51}
-                            layout='responsive'
+                            alt='Logo StudentsxCEOs League'
                         />
                     </figure>
                 </UnstyledLink>
