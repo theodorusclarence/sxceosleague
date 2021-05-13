@@ -5,6 +5,7 @@ import Nav from '@/components/Nav';
 import EventLists from '@/components/EventLists';
 import Footer from '@/components/Footer';
 import ScrollDownArrow from '@/components/ScrollDownArrow';
+import CloudinaryImg from '@/components/CloudinaryImg';
 
 export default function HomePage() {
     return (
@@ -26,14 +27,11 @@ export default function HomePage() {
                         />
                     </figure>
                     {/* Floating blue square illustration */}
-                    <figure className='absolute w-32 pointer-events-none right-12 top-24 animate-float float-delay md:top-52 md:right-52 md:w-48 lg:right-80'>
-                        <Image
-                            priority
-                            loading='eager'
+                    <figure className='absolute w-32 pointer-events-none right-12 top-24 animate-float float-delay md:top-52 md:right-52 md:w-[182px] lg:right-80'>
+                        <CloudinaryImg
+                            src='images/blur-square_kprsco.png'
                             width={182}
                             height={181}
-                            layout='responsive'
-                            src='/images/blur-square.png'
                             alt='illustration'
                         />
                     </figure>
@@ -53,14 +51,11 @@ export default function HomePage() {
                     </figure>
                     <article className='relative flex flex-col justify-center min-h-screen space-y-4 text-white layout'>
                         {/* Logo StudentsxCEOs League */}
-                        <figure className='w-12 md:w-20'>
-                            <Image
-                                src='/images/logo/logo.png'
+                        <figure className='w-12 md:w-[77px]'>
+                            <CloudinaryImg
+                                src='images/logo/logo_hkanxt.png'
                                 width={77}
                                 height={113}
-                                priority
-                                loading='eager'
-                                layout='responsive'
                                 alt='Logo'
                             />
                         </figure>

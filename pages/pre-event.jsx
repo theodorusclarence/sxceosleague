@@ -15,6 +15,7 @@ import {
     tabData,
     tndCarousel,
 } from '@/data/pre-event';
+import CloudinaryImg from '@/components/CloudinaryImg';
 
 const tabList = [
     { name: 'Talks and Discussion Session', id: '1' },
@@ -51,27 +52,21 @@ export default function PreEvent() {
                 <section className='relative bg-beige'>
                     <figure className='select-none pointer-events-none absolute w-[700px] left-1/4 -bottom-40 md:left-1/2 md:w-[1200px] md:bottom-auto md:top-1/2 transform md:-translate-y-1/2'>
                         {/* //* Circle Illustration */}
-                        <Image
-                            src='/images/events/bg-circle.png'
+                        <CloudinaryImg
+                            src='images/events/bg-circle_nktn9q.png'
                             width={1200}
                             height={1200}
-                            priority
-                            loading='eager'
-                            layout='responsive'
                             alt='Circle Illustration'
                         />
                     </figure>
                     <article className='relative flex flex-col items-start justify-center min-h-screen text-black md:items-center md:justify-between md:flex-row-reverse layout'>
                         {/* Add spacing when stacking vertically */}
-                        <figure className='w-20 mb-8 md:w-72 md:mb-0'>
+                        <figure className='w-[5rem] mb-8 md:w-[18rem] md:mb-0'>
                             {/* //* Logo */}
-                            <Image
-                                src='/images/logo/pre-event.png'
+                            <CloudinaryImg
+                                src='images/logo/pre-event_tsovcs.png'
                                 width={325}
                                 height={471}
-                                priority
-                                loading='eager'
-                                layout='responsive'
                                 alt='Logo'
                             />
                         </figure>
