@@ -168,16 +168,6 @@ export default function PreEvent() {
                                 >
                                     {tabData[selected - 1].buttonText}
                                 </ButtonLink>
-                                {/* Add custom button for mini challenge */}
-                                {selected === '2' ? (
-                                    <ButtonLink
-                                        href='https://drive.google.com/file/d/126ZxhB8VCnR-L7uSG-DY4EZeXoKYQTge/view?usp=sharing'
-                                        className='mt-4 md:ml-4 !text-gray-700'
-                                        outline={true}
-                                    >
-                                        Download Template
-                                    </ButtonLink>
-                                ) : null}
                             </div>
                             {/* If Talks and Discussion, then show image */}
                             {selected === '1' ? (
