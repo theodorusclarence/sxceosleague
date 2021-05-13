@@ -2,25 +2,25 @@ import Image from 'next/image';
 import { buildUrl } from 'cloudinary-build-url';
 
 export default function CloudinaryImg({
-    publicId,
+    src,
     height,
     width,
     alt = 'Project Image',
     title,
     className,
 }) {
-    const urlBlurred = buildUrl(publicId, {
+    const urlBlurred = buildUrl(src, {
         cloud: {
             cloudName: 'sxceosleague',
         },
         transformations: {
             effect: {
-                name: 'blur:1000',
+                name: 'grayscale',
             },
             quality: 1,
         },
     });
-    const url = buildUrl(publicId, {
+    const url = buildUrl(src, {
         cloud: {
             cloudName: 'sxceosleague',
         },
@@ -50,7 +50,6 @@ export default function CloudinaryImg({
                     height={height}
                     src={url}
                     alt={alt}
-                    unoptimized={true}
                     title={title || alt}
                 />
             </div>
