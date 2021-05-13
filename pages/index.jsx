@@ -40,13 +40,11 @@ export default function HomePage() {
                         style={{ transform: 'translateY(42.9%)' }}
                         className='absolute bottom-0 right-0 z-0 pointer-events-none w-60 md:w-96 '
                     >
-                        <Image
-                            src='/images/quartet-illus.png'
+                        <CloudinaryImg
+                            src='images/quartet-illus_uxxvre.png'
                             width={424}
                             height={742}
-                            priority
-                            loading='eager'
-                            layout='responsive'
+                            alt='Illustration'
                         />
                     </figure>
                     <article className='relative flex flex-col justify-center min-h-screen space-y-4 text-white layout'>
