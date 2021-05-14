@@ -8,9 +8,9 @@ export default function Nav() {
                 <UnstyledLink href='/'>
                     <figure className='w-28 md:w-40'>
                         <CloudinaryImg
-                            src='images/logo/nav-logo_aoef43.png'
-                            width={161}
-                            height={51}
+                            src='images/logo/nav-logo_tomlc3.png'
+                            width={322}
+                            height={102}
                             alt='Logo StudentsxCEOs League'
                         />
                     </figure>

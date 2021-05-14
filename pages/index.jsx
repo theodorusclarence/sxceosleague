@@ -51,9 +51,9 @@ export default function HomePage() {
                         {/* Logo StudentsxCEOs League */}
                         <figure className='w-12 md:w-[77px]'>
                             <CloudinaryImg
-                                src='images/logo/logo_hkanxt.png'
-                                width={77}
-                                height={113}
+                                src='images/logo/logo_ogy0fs.png'
+                                width={154}
+                                height={226}
                                 alt='Logo'
                             />
                         </figure>
