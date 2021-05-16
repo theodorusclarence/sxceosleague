@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import { NextSeo } from 'next-seo';
-import Nav from '@/components/Nav';
 
+import useWindowSize from '@/hooks/useWindowSize';
+
+import Nav from '@/components/Nav';
 import EventLists from '@/components/EventLists';
 import Footer from '@/components/Footer';
 import ScrollDownArrow from '@/components/ScrollDownArrow';
@@ -9,6 +11,9 @@ import CloudinaryImg from '@/components/CloudinaryImg';
 import ButtonLink from '@/components/ButtonLink';
 
 export default function HomePage() {
+    const { width } = useWindowSize();
+    const isMobile = width < 768;
+
     return (
         <>
             <NextSeo />
@@ -69,7 +74,9 @@ export default function HomePage() {
                             Platform.
                         </p>
                         <ButtonLink className='self-start' href='/pre-event'>
-                            Register Talks and Discussion 2
+                            {isMobile
+                                ? 'Register TnD 2'
+                                : 'Register Talks and Discussion 2'}
                         </ButtonLink>
                         {/* Hide on mobile */}
                         <figure className='hidden md:block'>
