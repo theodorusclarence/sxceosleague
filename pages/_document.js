@@ -109,7 +109,7 @@ class MyDocument extends Document {
                     />
 
                     {/* Splitbee Analytics */}
-                    <script async src="https://cdn.splitbee.io/sb.js"></script>
+                    <script async data-api='/_hive' src='/bee.js'></script>
                 </Head>
                 <body>
                     <Main />
