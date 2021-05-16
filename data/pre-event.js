@@ -3,8 +3,8 @@ export const tabData = [
         name: 'Talks and Discussion Session',
         time: '25 April & 27 May',
         desc: 'A session where audiences will gain knowledge from our speakers through an interactive discussion platform to prepare youth for the professional career world.',
-        buttonText: 'Coming Soon!',
-        href: null,
+        buttonText: 'Register Now!',
+        href: '/r/tnd-2',
     },
     {
         name: 'Mini Challenge',
