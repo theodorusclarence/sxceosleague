@@ -23,9 +23,7 @@ export const tabData = [
 ];
 
 export const tndCarousel = [
-    '/images/pre-event/tnd-1-1.jpg',
-    '/images/pre-event/tnd-1-2.jpg',
-    '/images/pre-event/tnd-1-3.jpg',
+    '/images/pre-event/tnd-2-1.jpg',
 ];
 
 // TODO MINICHALLENGE populate post
