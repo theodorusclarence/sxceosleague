@@ -3,8 +3,8 @@ export const tabData = [
         name: 'Talks and Discussion Session',
         time: '25 April & 27 May',
         desc: 'A session where audiences will gain knowledge from our speakers through an interactive discussion platform to prepare youth for the professional career world.',
-        buttonText: 'Register Now!',
-        href: '/r/tnd-2',
+        buttonText: 'Thanks for your participation!',
+        href: null,
     },
     {
         name: 'Mini Challenge',
@@ -22,9 +22,7 @@ export const tabData = [
     },
 ];
 
-export const tndCarousel = [
-    '/images/pre-event/tnd-2-1.jpg',
-];
+export const tndCarousel = ['/images/pre-event/tnd-2-1.jpg'];
 
 // TODO MINICHALLENGE populate post
 export const miniChallengeCarousel = [
