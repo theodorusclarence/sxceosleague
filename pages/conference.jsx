@@ -7,6 +7,7 @@ import ScrollDownArrow from '@/components/ScrollDownArrow';
 import TimelineList from '@/components/TimelineList';
 import Footer from '@/components/Footer';
 import CloudinaryImg from '@/components/CloudinaryImg';
+import ButtonLink from '@/components/ButtonLink';
 
 import { conferenceTimeline } from '@/data/conference';
 
@@ -63,9 +64,12 @@ export default function Conference() {
                                 with experts in policy-making recommendation
                                 with students all over Indonesia
                             </p>
-                            {/* <ButtonLink href='/' className='inline-block'>
-                                Button
-                            </ButtonLink> */}
+                            <ButtonLink
+                                href='/r/conference'
+                                className='inline-block'
+                            >
+                                Register Conference
+                            </ButtonLink>
                         </div>
                         <ScrollDownArrow />
                     </article>

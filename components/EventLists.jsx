@@ -7,6 +7,7 @@ import {
 } from 'react-icons/md';
 import UnstyledLink from './UnstyledLink';
 import { eventsData } from '@/data/data';
+import PurpleLabel from './PurpleLabel';
 
 export default function EventLists() {
     const settings = {
@@ -44,11 +45,14 @@ export default function EventLists() {
     );
 }
 
-function EventCard({ event: { title, excerpt, route, id } }) {
+function EventCard({ event: { title, excerpt, route, id, isOngoing } }) {
     return (
         <div className='grid items-center max-w-lg grid-cols-1 gap-4 px-2 mx-auto md:mx-0 md:max-w-none md:px-0 md:grid-cols-2 event__card group'>
             <EventImage id={id} />
             <div className='mt-4 space-y-2 event__card-text'>
+                {isOngoing && (
+                    <PurpleLabel className='inline-block'>Ongoing</PurpleLabel>
+                )}
                 <h3>{title}</h3>
                 <p className='max-w-lg mb-4 leading-7 text-gray-800'>
                     {excerpt}
