@@ -200,10 +200,13 @@ export default function Conference() {
                                 <div className='w-full space-y-4 md:ml-4 md:w-2/3'>
                                     <h3>Coaching Clinic Session</h3>
                                     <p className='leading-6 md:leading-8'>
-                                        A coaching session delivered by a
-                                        speaker to foster each delegate’s
-                                        expertise and knowledge of the topic
-                                        that is discussed during the conference.
+                                        The delegates will have a coaching
+                                        clinic based on their respective
+                                        chamber. The coaching clinic will be
+                                        given by our speakers to give a brief
+                                        introduction in regards to the problem
+                                        and will be followed by a Question &
+                                        Answer session.
                                     </p>
                                 </div>
                                 <div className='w-full mt-8 md:w-1/2'>
@@ -221,10 +224,44 @@ export default function Conference() {
                                 </div>
                                 <div className='w-full space-y-4 md:w-2/3'>
                                     <h3>Group Discussion Session</h3>
+                                    <PurpleLabel className='inline-block'>
+                                        Session 1
+                                    </PurpleLabel>
                                     <p className='leading-6 md:leading-8 md:mr-8'>
-                                        A discussion session where delegates can
-                                        brainstorm ideas and build connections
-                                        to solve real life problems.
+                                        This session starts by discussing a
+                                        selected topic moderated by the
+                                        Conference Leader and each delegate will
+                                        present their idea/point in a form of a
+                                        speech. Then, continue with one session
+                                        of group discussion. The final agenda of
+                                        this season will be a presentation from
+                                        the delegates regarding the related
+                                        issues
+                                    </p>
+                                    <PurpleLabel className='inline-block'>
+                                        Session 2
+                                    </PurpleLabel>
+                                    <p className='leading-6 md:leading-8 md:mr-8'>
+                                        The participants in each chamber will be
+                                        divided again into several groups. Each
+                                        group will have a discussion about the
+                                        solution regarding the topic of the
+                                        corresponding chamber and produce a
+                                        pre-resolution paper. At the end of the
+                                        session, every group has to present
+                                        their proposed solution to the speaker.
+                                    </p>
+                                    <PurpleLabel className='inline-block'>
+                                        Session 3
+                                    </PurpleLabel>
+                                    <p className='leading-6 md:leading-8 md:mr-8'>
+                                        In this final session, the speaker will
+                                        provide clarifications based on the
+                                        previous presentation and ideal
+                                        solutions based on the specified case.
+                                        Delegates will also be given the
+                                        opportunity to ask their question and
+                                        start the discussion
                                     </p>
                                 </div>
                             </div>
@@ -232,10 +269,28 @@ export default function Conference() {
                             <div className='flex flex-col-reverse mx-2 md:flex-row md:space-x-16 md:items-center'>
                                 <div className='w-full space-y-4 md:ml-4 md:w-2/3'>
                                     <h3>Final Pitching Round</h3>
+                                    <PurpleLabel className='inline-block'>
+                                        Session 1
+                                    </PurpleLabel>
                                     <p className='leading-6 md:leading-8'>
-                                        A final round for top selected delegates
-                                        to solve problems and pitch their ideas
-                                        in front of major industry leaders.
+                                        All delegates will discuss a fixed
+                                        resolution paper consist of all
+                                        recommendations and solutions regarding
+                                        the main topic on each chamber and there
+                                        will be a final presentation to
+                                        represent 3 days discussion
+                                    </p>
+                                    <PurpleLabel className='inline-block'>
+                                        Session 2
+                                    </PurpleLabel>
+                                    <p className='leading-6 md:leading-8'>
+                                        Selected Delegates will be challenged to
+                                        find a good, proper, and applicable
+                                        solution for a new study case given by a
+                                        panelist. Afterward, the following
+                                        session will be filled by pitching
+                                        sessions and Q&A for the solution
+                                        proposed by selected delegates.
                                     </p>
                                 </div>
                                 <div className='w-full mt-8 md:w-1/2'>
