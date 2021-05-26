@@ -61,8 +61,12 @@ export default function Conference() {
                             </h1>
                             <p className='leading-6 text-gray-900 md:leading-8'>
                                 A deep analysis packed in a fruitful discussion
-                                with experts in policy-making recommendation
-                                with students all over Indonesia
+                                with experts in policy-making recommendations
+                                with students all over Indonesia. The conference
+                                will require delegates, the conference leader,
+                                and panelists to discuss, collaborate, and
+                                present their thoughts and ideas to reach an
+                                inclusive solution.
                             </p>
                             <ButtonLink
                                 href='/r/conference'
@@ -121,10 +125,19 @@ export default function Conference() {
                                 <p className='leading-6 md:leading-8'>
                                     The era of disruption that we are facing
                                     demands various changes in the fabric of our
-                                    society, one of which is digitization. This
-                                    Chamber will discuss how Indonesia's
-                                    readiness is to welcome Industry 4.0 in
-                                    terms of human resources, technology,
+                                    society, one of which is digitization. The
+                                    utilization of big data plays its role in
+                                    the interconnected society where the
+                                    internet becomes a necessity. This condition
+                                    leads to the development of Industry 4.0 in
+                                    Indonesia. Big data and the Internet of
+                                    Things (IoT) combined allow industries to do
+                                    real-time monitoring and help in the
+                                    decision-making process. However, privacy,
+                                    security, and technology problems await to
+                                    be solved. This Chamber will discuss how
+                                    Indonesia's readiness is to welcome Industry
+                                    4.0 in terms of human resources, technology,
                                     bureaucracy, and regulatory framework along
                                     with how to tackle its challenges.
                                 </p>
@@ -149,21 +162,18 @@ export default function Conference() {
                                 </h3>
                                 <p className='leading-6 md:leading-8'>
                                     Climate change has been the main concern for
-                                    every state as the destruction towards the
+                                    every state as the destruction of the
                                     environment happens time by time. Increased
                                     sea level, submerged islands, polluted air
                                     and water, and severely injured ecosystems
                                     are several impacts that occur as
-                                    consequences. Industrialization has been
-                                    said as the main contributor towards the
-                                    destruction happening and thus the urgency
-                                    to apply Green Industrial Policy has been
-                                    increasing all around the world, especially
-                                    to the country with a huge number of
-                                    industries in it. This chamber will discuss
-                                    the implementation of Green Industrial
-                                    Policy in Indonesia, the impact of it, and
-                                    how to make it sustainable as a way to
+                                    consequences. Green Industrial Policy has
+                                    been increasing all around the world,
+                                    especially to the country with a huge number
+                                    of industries in it. This chamber will
+                                    discuss the implementation of the Green
+                                    Industrial Policy in Indonesia, its impact,
+                                    and how to make it sustainable as a way to
                                     preserve the environment.
                                 </p>
                             </div>
