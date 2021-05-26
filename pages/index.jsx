@@ -6,6 +6,7 @@ import EventLists from '@/components/EventLists';
 import Footer from '@/components/Footer';
 import ScrollDownArrow from '@/components/ScrollDownArrow';
 import CloudinaryImg from '@/components/CloudinaryImg';
+import ButtonLink from '@/components/ButtonLink';
 
 export default function HomePage() {
     return (
@@ -67,12 +68,9 @@ export default function HomePage() {
                             Java, which is aimed to become a Development
                             Platform.
                         </p>
-                        {/* <ButtonLink className='self-start' href='/pre-event'>
-                            {isMobile
-                                ? 'Register TnD 2'
-                                : 'Register Talks and Discussion 2'}
-                        </ButtonLink> */}
-                        {/* Hide on mobile */}
+                        <ButtonLink className='self-start' href='/conference'>
+                            Register Conference
+                        </ButtonLink>
                         <figure className='hidden md:block'>
                             <ScrollDownArrow colorClass='text-white' />
                         </figure>
