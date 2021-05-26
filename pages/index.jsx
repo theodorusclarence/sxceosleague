@@ -1,19 +1,13 @@
 import Image from 'next/image';
 import { NextSeo } from 'next-seo';
 
-import useWindowSize from '@/hooks/useWindowSize';
-
 import Nav from '@/components/Nav';
 import EventLists from '@/components/EventLists';
 import Footer from '@/components/Footer';
 import ScrollDownArrow from '@/components/ScrollDownArrow';
 import CloudinaryImg from '@/components/CloudinaryImg';
-import ButtonLink from '@/components/ButtonLink';
 
 export default function HomePage() {
-    const { width } = useWindowSize();
-    const isMobile = width < 768;
-
     return (
         <>
             <NextSeo />
@@ -73,11 +67,11 @@ export default function HomePage() {
                             Java, which is aimed to become a Development
                             Platform.
                         </p>
-                        <ButtonLink className='self-start' href='/pre-event'>
+                        {/* <ButtonLink className='self-start' href='/pre-event'>
                             {isMobile
                                 ? 'Register TnD 2'
                                 : 'Register Talks and Discussion 2'}
-                        </ButtonLink>
+                        </ButtonLink> */}
                         {/* Hide on mobile */}
                         <figure className='hidden md:block'>
                             <ScrollDownArrow colorClass='text-white' />
