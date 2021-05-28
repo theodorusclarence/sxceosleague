@@ -56,7 +56,7 @@ export default function Conference() {
                         </figure>
                         <div className='max-w-xl space-y-4'>
                             <PurpleLabel>StudentsxCEOs League</PurpleLabel>
-                            <h1 className='text-5xl text-spurple-400 md:text-7xl'>
+                            <h1 className='text-4xl text-spurple-400 md:text-7xl'>
                                 Conference
                             </h1>
                             <p className='leading-6 text-gray-900 md:leading-8'>
@@ -68,12 +68,21 @@ export default function Conference() {
                                 present their thoughts and ideas to reach an
                                 inclusive solution.
                             </p>
-                            <ButtonLink
-                                href='/r/conference'
-                                className='inline-block'
-                            >
-                                Register Conference
-                            </ButtonLink>
+                            <div className='flex space-x-2 text-center'>
+                                <ButtonLink
+                                    href='/r/conference'
+                                    className='inline-block'
+                                >
+                                    Register Conference
+                                </ButtonLink>
+                                <ButtonLink
+                                    href='/conference/handbook'
+                                    className='inline-block !text-gray-700'
+                                    outline
+                                >
+                                    Download Handbook
+                                </ButtonLink>
+                            </div>
                         </div>
                         <ScrollDownArrow />
                     </article>
