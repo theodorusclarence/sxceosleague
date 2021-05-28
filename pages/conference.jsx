@@ -189,10 +189,10 @@ export default function Conference() {
                             <div className='w-full mt-8 lg:w-1/2'>
                                 <figure>
                                     <Image
-                                        className='bg-gray-500 rounded-xl'
+                                        className='object-cover bg-gray-500 rounded-xl'
                                         src={'/images/conference/chamber-3.jpg'}
                                         width={800}
-                                        height={533}
+                                        height={733}
                                         alt='Chamber 3'
                                     />
                                 </figure>
