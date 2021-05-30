@@ -200,6 +200,62 @@ export default function Conference() {
                         </div>
                     </article>
                 </section>
+
+                {/* Prize Section */}
+                <section className='bg-watusi'>
+                    <article className='min-h-screen py-16 space-y-8 layout'>
+                        <div
+                            className='py-12 bg-beige rounded-3xl'
+                            style={{
+                                boxShadow:
+                                    '0px 4px 126px 6px rgba(201, 103, 103, 0.35)',
+                            }}
+                        >
+                            <h2 className='text-center mb-14'>
+                                Prize for Each Chamber
+                            </h2>
+                            <ul className='text-center'>
+                                <figure className='w-56 mx-auto -mt-20 md:-mt-20 md:w-96'>
+                                    <Image
+                                        width={1139}
+                                        height={1129}
+                                        layout='responsive'
+                                        src='/images/conference/prize-1.png'
+                                        alt='Prize 1'
+                                    />
+                                </figure>
+                                <figure className='w-56 mx-auto -mt-20 md:-mt-40 md:w-96'>
+                                    <Image
+                                        width={1139}
+                                        height={1129}
+                                        layout='responsive'
+                                        src='/images/conference/prize-2.png'
+                                        alt='Prize 2'
+                                    />
+                                </figure>
+                                <figure className='w-56 mx-auto -mt-20 md:-mt-40 md:w-96'>
+                                    <Image
+                                        width={1139}
+                                        height={1129}
+                                        layout='responsive'
+                                        src='/images/conference/prize-3.png'
+                                        alt='Prize 3'
+                                    />
+                                </figure>
+                                <figure className='w-56 mx-auto -mt-20 md:-mt-40 md:w-96'>
+                                    <Image
+                                        width={1139}
+                                        height={1129}
+                                        layout='responsive'
+                                        src='/images/conference/prize-4.png'
+                                        alt='Prize 4'
+                                    />
+                                </figure>
+                            </ul>
+                        </div>
+                    </article>
+                </section>
+
                 {/* Agenda Section */}
                 <section className='bg-watusi'>
                     <article className='min-h-screen py-16 space-y-8 layout'>
