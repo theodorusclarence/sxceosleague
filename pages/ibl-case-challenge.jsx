@@ -69,9 +69,21 @@ export default function Conference() {
                                 company in a creative and innovative way with a
                                 high level of realization and practice.
                             </p>
-                            {/* <ButtonLink href='/' className='inline-block'>
-                                Button
-                            </ButtonLink> */}
+                            <div className='flex space-x-2 text-center'>
+                                <ButtonLink
+                                    href='/r/ibl-case-challenge'
+                                    className='inline-block'
+                                >
+                                    Register IBL Case Challenge
+                                </ButtonLink>
+                                <ButtonLink
+                                    href='/ibl-case-challenge/handbook'
+                                    className='inline-block !text-gray-700'
+                                    outline
+                                >
+                                    Download Handbook
+                                </ButtonLink>
+                            </div>
                         </div>
                         <ScrollDownArrow />
                     </article>
@@ -131,8 +143,6 @@ export default function Conference() {
                                     JP Morgan
                                 </h2>
 
-                                <PurpleLabel>Total Prize: xxxx</PurpleLabel>
-
                                 <p className='max-w-4xl'>
                                     J.P. Morgan is a global leader in financial
                                     services, offering solutions to the world's
@@ -147,10 +157,6 @@ export default function Conference() {
                                     stem from access to capital, economies of
                                     scale, global reach and expertise.
                                 </p>
-
-                                <ButtonLink href='/r/ibl-case-challenge'>
-                                    Register for IBL Case Challenge
-                                </ButtonLink>
                             </div>
                         </div>
                     </article>
