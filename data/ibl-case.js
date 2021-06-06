@@ -1,6 +1,6 @@
 export const iblCaseTimeline = [
     {
-        eventDate: '4 June',
+        eventDate: '7 June',
         eventName: 'Open Registration of IBL Case Challenge',
     },
     {
