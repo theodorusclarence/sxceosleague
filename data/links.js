@@ -4,6 +4,10 @@ export const links = [
         url: '/conference',
     },
     {
+        label: 'Register IBL Case Challenge',
+        url: '/ibl-case-challenge',
+    },
+    {
         label: 'Tiktok',
         url: 'https://vt.tiktok.com/ZSJhaoYaU/',
     },
