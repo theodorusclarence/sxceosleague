@@ -88,7 +88,7 @@ export default function Conference() {
                             Case Contributor
                         </h2>
 
-                        <h1
+                        {/* <h1
                             style={{
                                 background:
                                     'linear-gradient(90deg, #F44E61 0%, #FA8A97 100%)',
@@ -96,10 +96,10 @@ export default function Conference() {
                             className='max-w-xl p-4 mx-auto text-center text-white rounded-2xl'
                         >
                             Soon to be Announced
-                        </h1>
+                        </h1> */}
 
                         {/* //TODO Uncomment when fixed JP Morgan Coming Soon */}
-                        {/* <div className='relative px-10 py-20 space-x-3 sm:py-28 md:py-40 md:space-y-5 rounded-2xl bg-beige lg:mt-52'>
+                        <div className='relative px-10 py-20 space-x-3 sm:py-28 md:py-40 md:space-y-5 rounded-2xl bg-beige lg:mt-52'>
                             <div className='absolute top-0 left-0'>
                                 <figure className='overflow-hidden transform -translate-y-5 translate-x-11 md:-translate-y-10 lg:-translate-y-36 W-1/2 w-72 md:w-72 lg:w-96 xl:w-120 rounded-2xl'>
                                     <Image
@@ -148,11 +148,11 @@ export default function Conference() {
                                     scale, global reach and expertise.
                                 </p>
 
-                                <ButtonLink>
+                                <ButtonLink href='/r/ibl-case-challenge'>
                                     Register for IBL Case Challenge
                                 </ButtonLink>
                             </div>
-                        </div> */}
+                        </div>
                     </article>
                 </section>
                 {/* prize section */}

@@ -71,6 +71,12 @@ export default function HomePage() {
                         <ButtonLink className='self-start' href='/conference'>
                             Register Conference
                         </ButtonLink>
+                        <ButtonLink
+                            className='self-start'
+                            href='/ibl-case-challenge'
+                        >
+                            Register IBL Case Challenge
+                        </ButtonLink>
                         <figure className='hidden md:block'>
                             <ScrollDownArrow colorClass='text-white' />
                         </figure>
