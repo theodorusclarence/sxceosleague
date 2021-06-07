@@ -115,7 +115,7 @@ export default function Conference() {
                             <div className='absolute top-0 left-0'>
                                 <figure className='overflow-hidden transform -translate-y-5 translate-x-11 md:-translate-y-10 lg:-translate-y-36 W-1/2 w-72 md:w-72 lg:w-96 xl:w-120 rounded-2xl'>
                                     <Image
-                                        src={'/images/events/img1.jpg'}
+                                        src={'/images/events/jpmorgan.jpg'}
                                         alt='illustration'
                                         width={793}
                                         height={480}
@@ -198,6 +198,64 @@ export default function Conference() {
                             <p className='mt-4 text-sm text-red-500'>
                                 *it may increase due to more sponsor joining us
                             </p>
+                        </div>
+                    </article>
+
+                    {/* Competition Stage Section */}
+                    <article className='min-h-screen py-16 space-y-8 layout'>
+                        <h2 className='text-center mb-14'>Competition Stage</h2>
+                        <div className='p-8 bg-gray-900 text-watusi md:p-16 md:x-16 md:py-20 rounded-xl'>
+                            <div className='flex flex-col-reverse mx-2 md:flex-row md:space-x-16 md:items-center'>
+                                <div className='w-full space-y-4 md:ml-4 md:w-2/3'>
+                                    <h3>Paper Submission</h3>
+                                    <p className='leading-6 md:leading-8'>
+                                        The stage where participants will
+                                        position themselves as the leader of a
+                                        company and lay out their innovative
+                                        solution to the problems that are being
+                                        faced by the company.
+                                    </p>
+                                </div>
+                                <div className='w-full mt-8 md:w-1/2'>
+                                    <p className='mb-4 text-6xl font-bold text-center uppercase md:text-8xl'>
+                                        Stage 1
+                                    </p>
+                                </div>
+                            </div>
+                            <hr className='w-full h-2 mx-auto my-8 border-0 rounded bg-gradient-to-r from-spurple-500 to bg-spurple-600' />
+                            <div className='flex flex-col mx-2 md:flex-row md:space-x-16 md:items-center'>
+                                <div className='w-full mt-8 md:w-1/2'>
+                                    <p className='mb-4 text-6xl font-bold text-center uppercase md:text-8xl'>
+                                        Stage 2
+                                    </p>
+                                </div>
+                                <div className='w-full space-y-4 md:w-2/3'>
+                                    <h3>Objective QnA & Debating Stage</h3>
+                                    <p className='leading-6 md:leading-8'>
+                                        A stage where participants will debate
+                                        and brainstorm their innovative
+                                        solutions with other participants
+                                        objectively in front of the panelists.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr className='w-full h-2 mx-auto my-8 border-0 rounded bg-gradient-to-r from-spurple-500 to bg-spurple-600' />
+                            <div className='flex flex-col-reverse mx-2 md:flex-row md:space-x-16 md:items-center'>
+                                <div className='w-full space-y-4 md:ml-4 md:w-2/3'>
+                                    <h3>Pitching Presentation</h3>
+                                    <p className='leading-6 md:leading-8'>
+                                        A final round for top finalists who will
+                                        present their proposed solution in front
+                                        of the representatives of the company in
+                                        the form of a presentation.
+                                    </p>
+                                </div>
+                                <div className='w-full mt-8 md:w-1/2'>
+                                    <p className='mb-4 text-6xl font-bold text-center uppercase md:text-8xl'>
+                                        Stage 3
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </article>
 
