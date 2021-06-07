@@ -13,7 +13,7 @@ export const eventsData = [
         excerpt:
             'Case based competition that will encourage participants to see themselves as a leader, who is responsible for solving a business problem of a company in a creative and innovative way with a high level of realization and practice.',
         route: '/ibl-case-challenge',
-        isOngoing: false,
+        isOngoing: true,
     },
     {
         id: 3,
