@@ -68,14 +68,8 @@ export default function HomePage() {
                             Java, which is aimed to become a Development
                             Platform.
                         </p>
-                        <ButtonLink className='self-start' href='/conference'>
-                            Register Conference
-                        </ButtonLink>
-                        <ButtonLink
-                            className='self-start'
-                            href='/ibl-case-challenge'
-                        >
-                            Register IBL Case Challenge
+                        <ButtonLink className='self-start' href='/links'>
+                            Register Now!
                         </ButtonLink>
                         <figure className='hidden md:block'>
                             <ScrollDownArrow colorClass='text-white' />
