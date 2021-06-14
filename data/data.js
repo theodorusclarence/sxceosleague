@@ -5,7 +5,7 @@ export const eventsData = [
         excerpt:
             'A series of events ranging from challenges to an in-depth discussion session to warm you up before participating in our main events.',
         route: '/pre-event',
-        isOngoing: false,
+        isOngoing: true,
     },
     {
         id: 2,
