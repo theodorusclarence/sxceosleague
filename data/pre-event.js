@@ -22,7 +22,7 @@ export const tabData = [
     },
 ];
 
-export const tndCarousel = ['/images/pre-event/tnd-2-1.jpg'];
+export const tndCarousel = ['/images/pre-event/tnd-3-1.jpg'];
 
 // TODO MINICHALLENGE populate post
 export const miniChallengeCarousel = [
