@@ -8,11 +8,11 @@ export const links = [
         url: '/ibl-case-challenge',
     },
     {
-        label: 'Register Talks and Discussion 3.0',
-        url: '/pre-event',
-    },
-    {
         label: 'Visit SxCLeague Shop',
         url: 'https://instagram.com/sxcleague_shop',
+    },
+    {
+        label: 'Tiktok',
+        url: 'https://vt.tiktok.com/ZSJhaoYaU/',
     },
 ];
