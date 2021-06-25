@@ -4,19 +4,19 @@ export const conferenceTimeline = [
         eventName: 'Open Registration',
     },
     {
-        eventDate: '25 June',
+        eventDate: '10 July',
         eventName: 'Close Registration',
     },
     {
-        eventDate: '2 July',
+        eventDate: '12 July',
         eventName: 'Study Guide Release',
     },
     {
-        eventDate: '16 July',
+        eventDate: '22 July',
         eventName: 'Paper Submission',
     },
     {
-        eventDate: '1 August',
+        eventDate: '8 August',
         eventName: 'Delegates Announcement',
     },
     {
