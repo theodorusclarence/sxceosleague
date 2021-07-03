@@ -70,12 +70,12 @@ export default function Conference() {
                                 high level of realization and practice.
                             </p>
                             <div className='flex space-x-2 text-center'>
-                                <ButtonLink
+                                {/* <ButtonLink
                                     href='/r/ibl-case-challenge'
                                     className='inline-block'
                                 >
                                     Register IBL Case Challenge
-                                </ButtonLink>
+                                </ButtonLink> */}
                                 <ButtonLink
                                     href='/ibl-case-challenge/handbook'
                                     className='inline-block !text-gray-700'
