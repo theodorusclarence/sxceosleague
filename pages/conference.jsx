@@ -69,12 +69,12 @@ export default function Conference() {
                                 inclusive solution.
                             </p>
                             <div className='flex space-x-2 text-center'>
-                                <ButtonLink
+                                {/* <ButtonLink
                                     href='/r/conference'
                                     className='inline-block'
                                 >
                                     Register Conference
-                                </ButtonLink>
+                                </ButtonLink> */}
                                 <ButtonLink
                                     href='/conference/handbook'
                                     className='inline-block !text-gray-700'
