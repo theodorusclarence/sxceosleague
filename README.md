@@ -1,6 +1,6 @@
 # StudentsXCEOs League
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This website is used for StudentsXCEOs League 2021
@@ -57,6 +57,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://theodorusclarence.com"><img src="https://avatars.githubusercontent.com/u/55318172?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Theodorus Clarence</b></sub></a><br /><a href="https://github.com/theodorusclarence/sxceosleague/commits?author=theodorusclarence" title="Code">💻</a> <a href="#design-theodorusclarence" title="Design">🎨</a></td>
     <td align="center"><a href="http://reyhannaufal.com"><img src="https://avatars.githubusercontent.com/u/59334824?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Reyhan Naufal</b></sub></a><br /><a href="https://github.com/theodorusclarence/sxceosleague/commits?author=reyhannaufal" title="Code">💻</a></td>
     <td align="center"><a href="https://ishaqadhel.com"><img src="https://avatars.githubusercontent.com/u/49280352?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ishaqadhel</b></sub></a><br /><a href="https://github.com/theodorusclarence/sxceosleague/commits?author=ishaqadhel" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/arkanaulia"><img src="https://avatars.githubusercontent.com/u/32859227?v=4?s=100" width="100px;" alt=""/><br /><sub><b>arkanaulia</b></sub></a><br /><a href="#design-arkanaulia" title="Design">🎨</a></td>
   </tr>
 </table>
 
