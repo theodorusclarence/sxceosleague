@@ -14,6 +14,15 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "reyhannaufal",
+      "name": "Reyhan Naufal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59334824?v=4",
+      "profile": "http://reyhannaufal.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
